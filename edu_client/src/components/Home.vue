@@ -14,7 +14,8 @@
         name: "Home",
         data(){
             return{
-                data_list:[]
+                data_list:[],
+
             }
         },
         methods:{

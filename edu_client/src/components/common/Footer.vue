@@ -1,7 +1,10 @@
 <template>
  <div class="footer">
         <ul>
-            <li v-for="footer in footers" v-if="footer.position === 2">{{footer.title}}</li>
+            <li v-for="footer in footers" v-if="footer.position === 2">
+                <span v-if="footer.is_site"><a :href="footer.link">{{footer.title}}</a></span>
+                <span v-else><router-link :to="footer.link">{{footer.title}}</router-link></span>
+            </li>
         </ul>
     </div>
 </template>
@@ -19,7 +22,7 @@
  .footer {
         width: 100%;
         height: 128px;
-        background: #25292e;
+        background: rgba(39, 46, 42, 0.7);
         color: #fff;
     }
 
@@ -29,12 +32,13 @@
         width: 810px;
     }
 
-    .footer ul li {
+    .footer ul li span{
         float: left;
         width: 112px;
         margin: 0 10px;
         text-align: center;
         font-size: 14px;
+        color: white;
     }
 
     .footer ul::after {

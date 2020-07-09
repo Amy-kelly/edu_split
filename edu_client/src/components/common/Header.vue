@@ -5,17 +5,30 @@
                 <div class="logo full-left">
                     <router-link to="/"><img src="/static/image/logo.png" alt=""></router-link>
                 </div>
-                <ul class="nav full-left"  >
-                    <li v-for="header in headers" v-if="header.position === 1"><span>{{header.title}}</span></li>
+                <ul class="nav full-left">
+                    <li v-for="header in headers" v-if="header.position === 1">
+                        <span v-if="header.is_site"><a :href="header.link">{{header.title}}</a></span>
+                        <span v-else><router-link :to="header.link">{{header.title}}</router-link></span>
+                    </li>
                 </ul>
-                <div class="login-bar full-right">
+                <div class="login-bar full-right" v-if="token">
                     <div class="shop-cart full-left">
                         <img src="/static/image/" alt="">
                         <span><router-link to="/cart">购物车</router-link></span>
                     </div>
                     <div class="login-box full-left">
-                        <span>登录</span>
-                        &nbsp;|&nbsp;
+                        <span><router-link to="/login/">个人中心</router-link></span>&nbsp;|&nbsp;
+                        <span><router-link to="/login">退出登录</router-link></span>
+                    </div>
+                </div>
+
+                <div class="login-bar full-right" v-else>
+                    <div class="shop-cart full-left">
+                        <img src="/static/image/" alt="">
+                        <span><router-link to="/cart">购物车</router-link></span>
+                    </div>
+                    <div class="login-box full-left">
+                        <span><router-link to="/login/">登录</router-link></span>&nbsp;|&nbsp;
                         <span>注册</span>
                     </div>
                 </div>
@@ -27,8 +40,21 @@
 <script>
     export default {
         name: "Header",
-
-        props:["headers"]
+        props:["headers"],
+        data(){
+            return{
+                token:"",
+            }
+        },
+        created() {
+             this.get_token()
+        },
+        methods:{
+            //获取token  确定用户登录状态
+            get_token(){
+                this.token = localStorage.user_token || sessionStorage.user_token
+            }
+        }
     }
 </script>
 

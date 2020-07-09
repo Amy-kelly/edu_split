@@ -11,4 +11,4 @@ class CarouselModelSerializer(serializers.ModelSerializer):
 class NavModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Nav
-        fields = ("title","link","position")
+        fields = ("title","link","position","is_site")
