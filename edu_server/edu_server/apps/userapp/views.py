@@ -9,15 +9,13 @@ pc_geetest_id = "6f91b3d2afe94ed29da03c14988fb4ef"
 pc_geetest_key = "7a01b1933685931ef5eaf5dabefd3df2"
 
 
+# 极验验证码
 class CaptchaAPIView(APIView):
-    """极验验证码"""
-
     user_id = 0
     status = False
 
+    # 获取验证码
     def get(self, request, *args, **kwargs):
-        """获取验证码"""
-
         username = request.query_params.get('username')
         print(username)
         user = get_user_by_account(username)
@@ -32,8 +30,8 @@ class CaptchaAPIView(APIView):
         response_str = gt.get_response_str()
         return Response(response_str)
 
+    # 验证验证码
     def post(self, request, *args, **kwargs):
-        """验证验证码"""
         gt = GeetestLib(pc_geetest_id, pc_geetest_key)
         challenge = request.POST.get(gt.FN_CHALLENGE, '')
         validate = request.POST.get(gt.FN_VALIDATE, '')
