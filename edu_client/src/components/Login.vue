@@ -51,8 +51,8 @@
             }
         },
         methods:{
+            //向API服务端发起请求获取验证码
             get_captcha() {
-                // 向API服务端发起请求获取验证码
                 this.$axios({
                     url: 'http://127.0.0.1:8000/userapp/captcha/',
                     method: 'get',
@@ -80,7 +80,7 @@
 
             // 请求验证码的回调函数  完成验证码的验证
             handlerPopup(captchaObj) {
-                // 回调函数中 this指向会被改变成 所以重新赋值
+                // 回调函数中 this指向会被改变 所以重新赋值 新的变量名可以任取
                 let self = this;
                 captchaObj.onSuccess(function () {
                     let validate = captchaObj.getValidate();
@@ -95,17 +95,20 @@
                     }).then(response=>{
                         console.log(response.data);
                         if(response.data.status){
-                            // 验证码验证成功  登录
+                            // 验证码验证成功  调用登录函数
                             self.user_login()
                         }
                     }).catch(error=>{
+                        //验证码验证不成功，弹出错误消息框
                         console.log(error);
+                        this.$message.error("验证码错误")
                     });
                 });
                 //  将生成的验证码添加到 id为geetest1的div中
                 document.getElementById("geetest1").innerHTML = "";
                 captchaObj.appendTo("#geetest1");
             },
+            //用户登录
             user_login(){
                 this.$axios({
                     url:"http://127.0.0.1:8000/userapp/login/",
