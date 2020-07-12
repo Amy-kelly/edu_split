@@ -8,7 +8,7 @@ from homeapp.serializers import CarouselModelSerializer,NavModelSerializer
 
 
 class CarouselListAPIView(ListAPIView):
-    queryset = Carousel.objects.filter(is_show=True, is_delete=False).order_by("-orders")
+    queryset = Carousel.objects.filter(is_show=True, is_delete=False)
     serializer_class = CarouselModelSerializer
 
 class NavListAPIView(ListAPIView):

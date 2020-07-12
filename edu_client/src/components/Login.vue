@@ -24,7 +24,7 @@
                 </div>
                 <button class="login_btn btn btn-primary" @click="get_captcha">登录</button>
                 <p class="go_login">没有账号
-                    <router-link to="/user/register/">立即注册</router-link>
+                    <router-link to="/register">立即注册</router-link>
                 </p>
             </div>
             <div class="inp" v-show="">
@@ -33,7 +33,7 @@
                 <button id="get_code" class="btn btn-primary">获取验证码</button>
                 <button class="login_btn">登录</button>
                 <span class="go_login">没有账号 </span>
-                   <span>立即注册</span>
+                   <span><router-link to="/register">立即注册</router-link></span>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@
                     url:"http://127.0.0.1:8000/userapp/login/",
                     method:"post",
                     data:{
-                        username:JSON.stringify(this.username),
+                        username:this.username,
                         password:this.password,
                     }
                 }).then(response=>{
