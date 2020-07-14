@@ -1,3 +1,4 @@
+from ckeditor_uploader.fields import RichTextUploadingField
 from django.db import models
 
 from courseapp.BaseModel import BaseModel
@@ -31,11 +32,14 @@ class Course(BaseModel):
         (1, '下线'),
         (2, '预上线'),
     )
+    comment = models.TextField(null=True, blank=True,verbose_name="用户评论")
+    question = RichTextUploadingField(max_length=2048, verbose_name="常见问题", null=True, blank=True)
+    course_video = models.FileField(upload_to="video",null=True,blank=True,verbose_name="视频")
     name = models.CharField(max_length=128, verbose_name="课程名称")
     course_img = models.ImageField(upload_to="course", max_length=255, verbose_name="封面图片", blank=True, null=True)
     course_type = models.SmallIntegerField(choices=course_type, default=0, verbose_name="付费类型")
-    # 使用这个字段的原因
-    brief = models.TextField(max_length=2048, verbose_name="详情介绍", null=True, blank=True)
+    # 使用这个字段的原因 展示富文本编辑器
+    brief = RichTextUploadingField(max_length=2048, verbose_name="详情介绍", null=True, blank=True)
     level = models.SmallIntegerField(choices=level_choices, default=1, verbose_name="难度等级")
     pub_date = models.DateField(verbose_name="发布日期", auto_now_add=True)
     period = models.IntegerField(verbose_name="建议学习周期(day)", default=7)
@@ -58,6 +62,15 @@ class Course(BaseModel):
         return "%s" % self.name
 
     @property
+    #将课程难度等级显示出来，而不是0 1 2 的形式
+    def lesson_level(self):
+        return self.level_choices[self.level][1]
+
+    @property
+    def brief_show(self):
+        return self.brief.replace('src="/media','src="%s/media' % "http://127.0.0.1:8000")
+
+    @property
     def chapter_list(self):
         chapter_list = CourseChapter.objects.filter(is_show=True, is_delete=False, course_id=self.id).all()
         data_list = []
@@ -71,6 +84,20 @@ class Course(BaseModel):
 
         return data_list
 
+    @property
+    def lesson_list(self):
+        lesson_list = CourseLesson.objects.filter(is_show=True, is_delete=False, course_id=self.id).all()
+        data_list = []
+
+        for lesson in lesson_list:
+            data_list.append({
+                "id": lesson.id,
+                "name": lesson.name,
+                "free_trail": lesson.free_trail,
+                "duration": lesson.duration
+            })
+
+        return data_list
 
 
 
@@ -115,21 +142,14 @@ class CourseChapter(BaseModel):
 
     @property
     def lesson_list(self):
-        "获取当前课程的前几节课程用于展示"
-
         lesson_list = CourseLesson.objects.filter(is_show=True, is_delete=False, chapter_id=self.id).all()
-        # chapter_list = CourseChapter.objects.filter(is_show=True, is_delete=False, course_id=self.id).all()
-
         data_list = []
-        # chapter_list=[]
 
         for lesson in lesson_list:
             data_list.append({
                 "id": lesson.id,
                 "name": lesson.name,
                 "free_trail": lesson.free_trail,
-                # "chapter_name":lesson.chapter.name,
-                # "chapter_id":lesson.chapter.id,
                 "duration": lesson.duration
             })
 

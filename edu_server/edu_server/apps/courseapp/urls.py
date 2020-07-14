@@ -8,4 +8,6 @@ urlpatterns = [
     path("course_filter/", views.CourseFilterListAPIView.as_view()),
     path("course_detail/", views.CourseDetailAPIView.as_view()),
     path("course_detail/<str:id>/", views.CourseDetailAPIView.as_view()),
+    path("course_comment/", views.CommentGenericAPIView.as_view()),
+    path("course_comment/<str:pk>/", views.CommentGenericAPIView.as_view()),
 ]

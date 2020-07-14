@@ -1,6 +1,6 @@
 <template>
 <div class="course">
-        <Header></Header>
+        <Header :headers="data_list"></Header>
 
         <div class="main">
             <!-- 筛选条件 -->
@@ -71,15 +71,20 @@
             :total="total">
         </el-pagination>
 
-        <Footer></Footer>
+        <Footer :footers="data_list"></Footer>
     </div>
 </template>
 
 <script>
+    import Header from "./common/Header";
+    import Footer from "./common/Footer";
+    import {videoPlayer} from "vue-video-player";
+
     export default {
         name: "Course",
          data() {
             return {
+                data_list:[],
                 category_list: [],  // 分类列表
                 course_list: [],     //  课程列表
                 category: 0,
@@ -102,6 +107,19 @@
             },
         },
         methods: {
+            //导航栏和底部的数据从后端传过来
+            get_all_data() {
+                this.$axios({
+                    url: 'http://127.0.0.1:8000/homeapp/nav/',
+                    method: "get",
+                }).then(res => {
+                    // 当前请求的返回值可以通过res接受到
+                    console.log(res.data);
+                    this.data_list = res.data;
+                }).catch(error => {
+                    console.log(error);
+                })
+            },
             // 获取所有课程的信息
             get_course_list() {
                 // 如果根据过滤条件进行分页  则需要重新指定分页的值
@@ -187,7 +205,11 @@
         created() {
             this.get_all_category();
             this.get_course_list();
-        }
+            this.get_all_data()
+        },
+         components: {
+            Header, Footer
+        },
     }
 </script>
 

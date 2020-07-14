@@ -25,6 +25,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('xadmin/',xadmin.site.urls),
     re_path(r'media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT}),
+    # 富文本编辑器的路由
+    path("ckeditor/", include("ckeditor_uploader.urls")),
     path("homeapp/", include("homeapp.urls")),
     path("userapp/", include("userapp.urls")),
     path("courseapp/", include("courseapp.urls")),

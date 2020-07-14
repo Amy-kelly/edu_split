@@ -1,5 +1,6 @@
+from rest_framework import status
 from rest_framework.generics import ListAPIView
-from rest_framework.mixins import RetrieveModelMixin
+from rest_framework.mixins import RetrieveModelMixin,ListModelMixin,CreateModelMixin,UpdateModelMixin,DestroyModelMixin
 from rest_framework.generics import GenericAPIView
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import OrderingFilter
@@ -8,10 +9,13 @@ from rest_framework.views import APIView
 
 from courseapp.models import CourseCategory, Course
 from courseapp.pagination import CoursePageNumber
-from courseapp.serializer import CourseCategorySerializer, CourseModelSerializer
+from courseapp.serializer import CourseCategorySerializer, CourseModelSerializer,CommentModelSerializer
 
 
 # 课程分类信息查询
+from utils.response import MyResponse
+
+
 class CourseCategoryListAPIView(ListAPIView):
     queryset = CourseCategory.objects.filter(is_show=True, is_delete=False).order_by("orders")
     serializer_class = CourseCategorySerializer
@@ -70,3 +74,26 @@ class CourseDetailAPIView(RetrieveModelMixin,GenericAPIView):
                 "msg":"ok",
                 "results":cour_obj.data
             })
+
+class CommentGenericAPIView(ListModelMixin,
+                             CreateModelMixin,
+                             RetrieveModelMixin,
+                             UpdateModelMixin,
+                             DestroyModelMixin,
+                             GenericAPIView):
+    queryset = Course.objects.all()
+    serializer_class = CommentModelSerializer
+    def get(self,request,*args,**kwargs):
+        cour_id = kwargs.get("pk")
+        if cour_id:
+            course = self.retrieve(request,*args,**kwargs)
+            return MyResponse(status.HTTP_200_OK,True,results=course.data)
+        else:
+            courses = self.list(request,*args,**kwargs)
+            return MyResponse(status.HTTP_200_OK, True, results=courses.data)
+
+    def patch(self,request,*args,**kwargs):
+        cour_obj = self.partial_update(request,*args,**kwargs)
+        return MyResponse(status.HTTP_200_OK, True, results=cour_obj.data)
+
+

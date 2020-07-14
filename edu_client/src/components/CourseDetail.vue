@@ -16,7 +16,7 @@
                 </div>
                 <div class="wrap-right">
                     <h3 class="course-name">{{course.name}}</h3>
-                    <p class="data">{{course.students}}人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：{{course.pub_lessons}}课时/{{course.lessons}}课时&nbsp;&nbsp;&nbsp;&nbsp;难度：初级</p>
+                    <p class="data">{{course.students}}人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：{{course.pub_lessons}}课时/{{course.lessons}}课时&nbsp;&nbsp;&nbsp;&nbsp;难度：{{course.lesson_level}}</p>
                     <div class="sale-time">
                         <p class="sale-type">限时免费</p>
                         <p class="expire">距离结束：仅剩 110天 13小时 33分 <span class="second">08</span> 秒</p>
@@ -47,20 +47,12 @@
             <div class="course-content">
                 <div class="course-tab-list">
                     <div class="tab-item" v-if="tabIndex==1">
-                        <p><img alt=""
-                                src=""
-                                width="840"></p>
-                        <p><img alt=""
-                                src=""
-                                width="840"></p>
-                        <p><img alt=""
-                                src=""
-                                width="840"></p>
+                      <div v-html="course.brief_show"></div>
                     </div>
                     <div class="tab-item" v-if="tabIndex==2">
                         <div class="tab-item-title">
                             <p class="chapter">课程章节</p>
-                            <p class="chapter-length">共{{course.chapter.length()}}章{{course.lessons}}个课时</p>
+                            <p class="chapter-length">共{{course.chapter_list.length}}章{{course.lessons}}个课时</p>
                         </div>
                         <div v-for="(chapter,index1) in course.chapter_list" class="chapter-item" >
                             <p class="chapter-title"><img src="/static/image/1.svg" alt="">第{{index1+1}}章{{chapter.name}}</p>
@@ -78,10 +70,22 @@
 
                     </div>
                     <div class="tab-item" v-if="tabIndex==3">
-                        用户评论
+                        <h3>用户评论</h3>
+                        <div>
+                              <input type="text" v-model="comment">
+                              <el-button type="success" @click="add_comment">欢迎评论</el-button>
+                              <br>
+                              <ul>
+                                <li v-for="(comment,index) in comment_list">{{comment}}
+                                </li>
+                              </ul>
+                              <span>评论数量：{{comment_list.length}}条</span>
+
+                        </div>
                     </div>
                     <div class="tab-item" v-if="tabIndex==4">
                         常见问题
+                        <div v-html="course.question"></div>
                     </div>
                 </div>
                 <div class="course-side">
@@ -115,9 +119,15 @@
         data() {
             return {
                 data_list: [],  //顶部底部数据
-                course: [], //课程详情列表
+                course: {
+                    teacher:[],
+                    chapter_list:[]
+                }, //课程详情列表
                 id:"",
-                // teacher_list: [],  //教师列表
+                comment:"",
+                comment_list: [],
+                // comment_data:[],
+
                 //视频播放
                 course_id: 0,
                 tabIndex: 2, // 当前选项卡显示的下标
@@ -166,25 +176,50 @@
                 console.log(id);
                 this.$axios.get("http://127.0.0.1:8000/courseapp/course_detail/"+`${id}/`).then(response => {
                     this.course = response.data.results;
+                    this.playerOptions.sources[0].src = response.data.results.course_video;
+                    this.playerOptions.poster = response.data.results.course_img
                 }).catch(error=>{
                     console.log(id);
                     this.$message.error("查询出错了")
                 })
 
             },
-            // //查询所有的教师
-            // get_all_teacher() {
-            //          this.$axios.get(`http://127.0.0.1:8000/courseapp/course/`).then(response => {
-            //         this.course_list = response.data;
-            //     }).catch(error=>{
-            //         this.$message.error("查询出错了")
-            //     })
-            // },
+            //查询评论
+            get_all_comment(){
+                let id = this.$route.params.id;
+                this.$axios.get("http://127.0.0.1:8000/courseapp/course_comment/"+`${id}/`).then(response => {
+                    // comment_data =
+                    this.comment_list = JSON.parse(response.data.results.comment);
+
+                }).catch(error=>{
+                    console.log(id);
+                    this.$message.error("查询出错了")
+                })
+            },
+            //添加评论
+            add_comment(){
+                let id = this.$route.params.id;
+                this.comment_list.push(this.comment)
+
+               this.$axios({
+                   url:"http://127.0.0.1:8000/courseapp/course_comment/"+`${id}/`,
+                   method:'patch',
+                   data:{
+                       comment:JSON.stringify(this.comment_list)
+                   }
+               }).catch(res => {
+                   console.log(res.data);
+               }).then(error => {
+                   this.$message.error("添加失败")
+                    location.reload()
+               })
+            }
+
         },
         created() {
-            this.get_all_data(),
+                this.get_all_data()
                 this.get_course_detail()
-                // this.get_all_teacher()
+                this.get_all_comment()
         },
         components: {
             Header, Footer, videoPlayer

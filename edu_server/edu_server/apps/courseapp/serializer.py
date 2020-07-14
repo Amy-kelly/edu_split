@@ -31,4 +31,17 @@ class CourseModelSerializer(ModelSerializer):
 
     class Meta:
         model = Course
-        fields = ["id", "name", "course_img", "students", "lessons", "pub_lessons", "price", "teacher","chapter_list"]
+        fields = ["id", "name", "course_img","question","lesson_level","course_video","brief_show","students", "lessons", "pub_lessons", "price", "teacher","chapter_list","lesson_list"]
+
+
+#评论
+class CommentModelSerializer(ModelSerializer):
+    class Meta:
+        model = Course
+        fields = ["id","comment","question"]
+
+        extra_kwargs = {
+            "question":{
+                "read_only":True
+            }
+        }
