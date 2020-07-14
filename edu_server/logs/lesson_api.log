@@ -874,3 +874,1021 @@ INFO 2020-07-12 21:18:18,070 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200
 INFO 2020-07-12 21:18:22,181 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
 INFO 2020-07-12 21:18:26,268 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
 INFO 2020-07-12 21:18:26,274 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-12 21:36:54,857 basehttp 124 "GET /userapp/mobile/18338750690/ HTTP/1.1" 200 16
+INFO 2020-07-12 21:36:55,021 basehttp 124 "GET /userapp/sms/18338750690/ HTTP/1.1" 200 32
+INFO 2020-07-12 21:37:22,878 basehttp 124 "OPTIONS /userapp/register/ HTTP/1.1" 200 0
+INFO 2020-07-12 21:37:26,991 basehttp 124 "POST /userapp/register/ HTTP/1.1" 201 213
+INFO 2020-07-12 21:37:32,602 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-12 21:37:32,603 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-12 21:37:49,611 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-12 21:37:55,948 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-12 21:37:55,961 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-12 21:37:55,982 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-12 21:38:00,097 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-12 21:38:04,136 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-12 21:38:04,140 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-13 17:43:43,775 basehttp 124 "GET /admin/ HTTP/1.1" 200 2602
+INFO 2020-07-13 17:43:43,783 basehttp 124 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:43,784 basehttp 124 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:43,785 basehttp 124 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2020-07-13 17:43:48,532 basehttp 124 "GET /admin/ HTTP/1.1" 200 2602
+INFO 2020-07-13 17:43:48,625 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-07-13 17:43:48,682 basehttp 124 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2020-07-13 17:43:48,683 basehttp 124 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2020-07-13 17:43:48,711 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2020-07-13 17:43:48,712 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2020-07-13 17:43:48,713 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+WARNING 2020-07-13 17:43:48,749 base 93 Not Found: /favicon.ico
+WARNING 2020-07-13 17:43:48,750 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2423
+INFO 2020-07-13 17:43:56,848 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 17393
+INFO 2020-07-13 17:43:56,874 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,875 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,877 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,879 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,886 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,890 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,892 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,896 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,902 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,913 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,914 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,926 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,927 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 17:43:56,928 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,932 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,935 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 17393
+INFO 2020-07-13 17:43:56,937 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,937 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,941 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,942 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,943 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-07-13 17:43:56,997 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:15,565 basehttp 124 "GET /xadmin/courseapp/teacher/ HTTP/1.1" 200 27555
+INFO 2020-07-13 18:06:15,589 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:15,592 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:15,594 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:15,594 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:15,595 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:15,598 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:15,601 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:06:19,046 basehttp 124 "GET /xadmin/courseapp/teacher/add/ HTTP/1.1" 200 24331
+INFO 2020-07-13 18:06:19,063 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,071 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,073 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,074 basehttp 124 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,076 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,076 basehttp 124 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,078 basehttp 124 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,083 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,087 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:06:19,088 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:06:19,088 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+WARNING 2020-07-13 18:06:19,167 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:09:05,155 basehttp 124 "POST /xadmin/courseapp/teacher/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:09:05,236 basehttp 124 "GET /xadmin/courseapp/teacher/add/ HTTP/1.1" 200 24688
+WARNING 2020-07-13 18:09:05,256 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:09:05,261 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:09:05,294 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:10:29,146 basehttp 124 "POST /xadmin/courseapp/teacher/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:10:29,213 basehttp 124 "GET /xadmin/courseapp/teacher/ HTTP/1.1" 200 31325
+INFO 2020-07-13 18:10:29,232 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-07-13 18:10:29,237 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:10:34,916 basehttp 124 "GET /xadmin/courseapp/teacher/2/update/ HTTP/1.1" 200 24884
+INFO 2020-07-13 18:10:34,938 basehttp 124 "GET /media/teacher/01.jpg HTTP/1.1" 200 28501
+INFO 2020-07-13 18:10:34,945 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:10:34,969 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:10:52,967 basehttp 124 "POST /xadmin/courseapp/teacher/2/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:10:53,029 basehttp 124 "GET /xadmin/courseapp/teacher/ HTTP/1.1" 200 31256
+INFO 2020-07-13 18:10:53,054 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:11:01,418 basehttp 124 "GET /xadmin/courseapp/coursecategory/ HTTP/1.1" 200 26958
+INFO 2020-07-13 18:11:01,436 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:11:03,570 basehttp 124 "GET /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 200 20123
+INFO 2020-07-13 18:11:03,589 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:11:57,153 basehttp 124 "POST /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:11:57,217 basehttp 124 "GET /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 200 20483
+INFO 2020-07-13 18:11:57,236 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:12:09,791 basehttp 124 "POST /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:12:09,852 basehttp 124 "GET /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 200 20485
+INFO 2020-07-13 18:12:09,870 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:12:25,023 basehttp 124 "POST /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:12:25,082 basehttp 124 "GET /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 200 20488
+INFO 2020-07-13 18:12:25,102 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:12:41,319 basehttp 124 "POST /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:12:41,380 basehttp 124 "GET /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 200 20492
+INFO 2020-07-13 18:12:41,398 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:12:53,487 basehttp 124 "POST /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:12:53,549 basehttp 124 "GET /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 200 20486
+INFO 2020-07-13 18:12:53,567 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:13:04,119 basehttp 124 "POST /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:13:04,179 basehttp 124 "GET /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 200 20482
+INFO 2020-07-13 18:13:04,200 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:13:27,935 basehttp 124 "POST /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:13:27,994 basehttp 124 "GET /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 200 20491
+INFO 2020-07-13 18:13:28,014 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:13:38,538 basehttp 124 "POST /xadmin/courseapp/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:13:38,622 basehttp 124 "GET /xadmin/courseapp/coursecategory/ HTTP/1.1" 200 36815
+INFO 2020-07-13 18:13:38,647 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:13:45,296 basehttp 124 "GET /xadmin/courseapp/course/ HTTP/1.1" 200 28727
+INFO 2020-07-13 18:13:45,321 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:13:46,679 basehttp 124 "GET /xadmin/courseapp/course/ HTTP/1.1" 200 28727
+INFO 2020-07-13 18:13:46,697 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:13:46,907 basehttp 124 "GET /xadmin/courseapp/course/ HTTP/1.1" 200 28727
+INFO 2020-07-13 18:13:46,928 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:14:25,795 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28226
+WARNING 2020-07-13 18:14:25,825 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:14:25,827 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:14:25,864 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+WARNING 2020-07-13 18:14:25,946 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:16:19,519 basehttp 124 "GET /xadmin/courseapp/teacher/ HTTP/1.1" 200 31009
+INFO 2020-07-13 18:16:19,541 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:16:23,004 basehttp 124 "GET /xadmin/courseapp/teacher/add/ HTTP/1.1" 200 24331
+WARNING 2020-07-13 18:16:23,026 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:16:23,032 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:16:23,065 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:18:49,570 basehttp 124 "POST /xadmin/courseapp/teacher/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:18:49,636 basehttp 124 "GET /xadmin/courseapp/teacher/ HTTP/1.1" 200 32305
+INFO 2020-07-13 18:18:49,659 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:18:55,728 basehttp 124 "GET /xadmin/courseapp/course/ HTTP/1.1" 200 28727
+INFO 2020-07-13 18:18:55,746 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:18:57,235 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28262
+WARNING 2020-07-13 18:18:57,260 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:18:57,264 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:18:57,299 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:21:10,930 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:21:11,048 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28627
+WARNING 2020-07-13 18:21:11,069 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:21:11,074 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:21:11,133 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:22:53,741 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:22:53,854 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28626
+WARNING 2020-07-13 18:22:53,873 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:22:53,878 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:22:53,928 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:24:56,298 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:24:56,358 basehttp 124 "GET /xadmin/courseapp/course/ HTTP/1.1" 200 34515
+INFO 2020-07-13 18:24:56,380 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 18:25:00,919 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28262
+WARNING 2020-07-13 18:25:00,941 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:25:00,947 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:25:00,984 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:26:34,169 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:26:34,281 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28622
+WARNING 2020-07-13 18:26:34,299 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:26:34,304 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:26:34,353 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:28:04,931 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:28:05,045 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28622
+WARNING 2020-07-13 18:28:05,066 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:28:05,070 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:28:05,130 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:31:01,725 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:31:01,840 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28625
+WARNING 2020-07-13 18:31:01,859 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:31:01,864 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:31:01,913 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:32:56,608 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:32:56,721 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28636
+WARNING 2020-07-13 18:32:56,742 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:32:56,746 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:32:56,799 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:35:54,632 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 18:35:54,745 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28633
+WARNING 2020-07-13 18:35:54,764 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 18:35:54,770 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 18:35:54,825 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:24:07,881 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:24:08,000 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28623
+WARNING 2020-07-13 19:24:08,021 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:24:08,025 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:24:08,079 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:25:59,801 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:25:59,917 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28622
+WARNING 2020-07-13 19:25:59,935 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:25:59,940 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:25:59,992 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:27:05,965 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:27:06,082 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28618
+WARNING 2020-07-13 19:27:06,103 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:27:06,110 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:27:06,157 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:28:56,375 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:28:56,491 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28635
+WARNING 2020-07-13 19:28:56,510 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:28:56,515 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:28:56,567 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:30:51,606 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:30:51,720 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28621
+WARNING 2020-07-13 19:30:51,741 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:30:51,747 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:30:51,794 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:32:22,908 basehttp 124 "POST /xadmin/courseapp/course/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:32:23,038 basehttp 124 "GET /xadmin/courseapp/course/add/ HTTP/1.1" 200 28626
+WARNING 2020-07-13 19:32:23,057 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:32:23,061 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:32:23,108 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:32:33,800 basehttp 124 "GET /xadmin/courseapp/course/ HTTP/1.1" 200 48782
+INFO 2020-07-13 19:32:33,821 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:32:37,393 basehttp 124 "GET /xadmin/courseapp/coursechapter/ HTTP/1.1" 200 27453
+INFO 2020-07-13 19:32:37,412 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:32:39,277 basehttp 124 "GET /xadmin/courseapp/coursechapter/add/ HTTP/1.1" 200 22892
+WARNING 2020-07-13 19:32:39,302 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:32:39,307 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:32:39,345 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:33:44,501 basehttp 124 "POST /xadmin/courseapp/coursechapter/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:33:44,580 basehttp 124 "GET /xadmin/courseapp/coursechapter/add/ HTTP/1.1" 200 23286
+WARNING 2020-07-13 19:33:44,598 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:33:44,604 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:33:44,658 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:35:06,556 basehttp 124 "POST /xadmin/courseapp/coursechapter/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:35:06,631 basehttp 124 "GET /xadmin/courseapp/coursechapter/add/ HTTP/1.1" 200 23292
+WARNING 2020-07-13 19:35:06,648 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:35:06,654 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:35:06,699 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:35:26,075 basehttp 124 "POST /xadmin/courseapp/coursechapter/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:35:26,149 basehttp 124 "GET /xadmin/courseapp/coursechapter/add/ HTTP/1.1" 200 23286
+WARNING 2020-07-13 19:35:26,166 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:35:26,172 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:35:26,219 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:36:26,763 basehttp 124 "POST /xadmin/courseapp/coursechapter/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:36:26,842 basehttp 124 "GET /xadmin/courseapp/coursechapter/ HTTP/1.1" 200 33444
+INFO 2020-07-13 19:36:26,865 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:36:28,102 basehttp 124 "GET /xadmin/courseapp/courselesson/ HTTP/1.1" 200 27979
+INFO 2020-07-13 19:36:28,127 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:36:30,938 basehttp 124 "GET /xadmin/courseapp/courselesson/add/ HTTP/1.1" 200 24924
+WARNING 2020-07-13 19:36:30,958 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:36:30,964 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:36:30,999 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:36:44,317 basehttp 124 "GET /xadmin/courseapp/courselesson/ HTTP/1.1" 200 27979
+INFO 2020-07-13 19:36:44,336 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:36:47,477 basehttp 124 "GET /xadmin/courseapp/coursechapter/ HTTP/1.1" 200 33084
+INFO 2020-07-13 19:36:47,497 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:36:52,852 basehttp 124 "GET /xadmin/courseapp/coursechapter/2/update/ HTTP/1.1" 200 23341
+WARNING 2020-07-13 19:36:52,874 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:36:52,878 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:36:52,897 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:37:06,130 basehttp 124 "GET /xadmin/courseapp/coursechapter/2/delete/ HTTP/1.1" 200 17871
+INFO 2020-07-13 19:37:06,151 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:37:08,247 basehttp 124 "POST /xadmin/courseapp/coursechapter/2/delete/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:37:08,313 basehttp 124 "GET /xadmin/courseapp/coursechapter/ HTTP/1.1" 200 32333
+INFO 2020-07-13 19:37:08,340 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:37:11,341 basehttp 124 "GET /xadmin/courseapp/coursechapter/3/update/ HTTP/1.1" 200 23311
+WARNING 2020-07-13 19:37:11,363 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:37:11,368 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:37:11,383 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:37:13,120 basehttp 124 "GET /xadmin/courseapp/coursechapter/3/delete/ HTTP/1.1" 200 17853
+INFO 2020-07-13 19:37:13,139 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:37:14,358 basehttp 124 "POST /xadmin/courseapp/coursechapter/3/delete/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:37:14,421 basehttp 124 "GET /xadmin/courseapp/coursechapter/ HTTP/1.1" 200 31295
+INFO 2020-07-13 19:37:14,442 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:37:19,304 basehttp 124 "GET /xadmin/courseapp/courselesson/ HTTP/1.1" 200 27979
+INFO 2020-07-13 19:37:19,320 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:37:21,333 basehttp 124 "GET /xadmin/courseapp/courselesson/add/ HTTP/1.1" 200 24780
+WARNING 2020-07-13 19:37:21,353 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:37:21,358 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:37:21,389 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:38:08,571 basehttp 124 "POST /xadmin/courseapp/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:38:08,663 basehttp 124 "GET /xadmin/courseapp/courselesson/add/ HTTP/1.1" 200 25192
+WARNING 2020-07-13 19:38:08,680 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:38:08,686 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:38:08,723 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:38:38,778 basehttp 124 "POST /xadmin/courseapp/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:38:38,878 basehttp 124 "GET /xadmin/courseapp/courselesson/add/ HTTP/1.1" 200 25186
+WARNING 2020-07-13 19:38:38,897 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:38:38,904 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:38:38,951 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:39:18,562 basehttp 124 "POST /xadmin/courseapp/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:39:18,683 basehttp 124 "GET /xadmin/courseapp/courselesson/add/ HTTP/1.1" 200 25192
+WARNING 2020-07-13 19:39:18,701 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:39:18,707 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:39:18,755 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:39:49,089 basehttp 124 "POST /xadmin/courseapp/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:39:49,185 basehttp 124 "GET /xadmin/courseapp/courselesson/add/ HTTP/1.1" 200 25192
+WARNING 2020-07-13 19:39:49,203 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:39:49,209 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:39:49,258 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:40:13,459 basehttp 124 "POST /xadmin/courseapp/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:40:13,558 basehttp 124 "GET /xadmin/courseapp/courselesson/add/ HTTP/1.1" 200 25195
+WARNING 2020-07-13 19:40:13,578 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:40:13,585 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-13 19:40:13,638 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-13 19:40:52,189 basehttp 124 "POST /xadmin/courseapp/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-07-13 19:40:52,269 basehttp 124 "GET /xadmin/courseapp/courselesson/ HTTP/1.1" 200 32322
+INFO 2020-07-13 19:40:52,291 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-13 19:53:34,596 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 19:53:49,058 basehttp 124 "GET /courseapp/course/ HTTP/1.1" 200 4266
+INFO 2020-07-13 20:02:18,724 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 20:02:18,726 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-13 20:02:18,793 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 737783
+INFO 2020-07-13 20:02:18,842 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-13 20:02:18,847 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-13 20:02:28,260 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-13 20:02:28,260 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:11:58,939 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 21:11:58,953 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-13 21:11:58,960 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-13 21:11:58,963 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-13 21:12:00,731 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-13 21:12:00,793 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:12:04,699 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 21:12:04,721 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-13 21:12:18,597 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=-id HTTP/1.1" 200 987
+INFO 2020-07-13 21:12:18,606 basehttp 124 "GET /media/course/11.jpg HTTP/1.1" 200 33010
+INFO 2020-07-13 21:12:26,986 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=id HTTP/1.1" 200 1292
+INFO 2020-07-13 21:12:26,995 basehttp 124 "GET /media/course/06.png HTTP/1.1" 200 81807
+INFO 2020-07-13 21:12:26,995 basehttp 124 "GET /media/course/10.png HTTP/1.1" 200 89891
+INFO 2020-07-13 21:12:26,996 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 200 98963
+INFO 2020-07-13 21:12:31,651 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=-id HTTP/1.1" 200 987
+INFO 2020-07-13 21:12:33,044 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=-students HTTP/1.1" 200 1002
+INFO 2020-07-13 21:12:33,055 basehttp 124 "GET /media/course/04_gkK8Cgq.jpg HTTP/1.1" 200 33637
+INFO 2020-07-13 21:12:33,056 basehttp 124 "GET /media/course/07.png HTTP/1.1" 200 85626
+INFO 2020-07-13 21:12:33,056 basehttp 124 "GET /media/course/08.jpg HTTP/1.1" 200 49095
+INFO 2020-07-13 21:12:33,873 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=students HTTP/1.1" 200 986
+INFO 2020-07-13 21:12:33,880 basehttp 124 "GET /media/course/03.png HTTP/1.1" 200 120778
+INFO 2020-07-13 21:12:34,920 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=-students HTTP/1.1" 200 1002
+INFO 2020-07-13 21:12:38,149 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=-students&course_category=1 HTTP/1.1" 200 1221
+INFO 2020-07-13 21:12:58,677 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-students&course_category=1 HTTP/1.1" 200 1031
+INFO 2020-07-13 21:13:01,520 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 719
+INFO 2020-07-13 21:13:04,837 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=1 HTTP/1.1" 200 1021
+INFO 2020-07-13 21:13:12,268 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=2 HTTP/1.1" 200 629
+INFO 2020-07-13 21:13:15,454 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=3 HTTP/1.1" 200 235
+INFO 2020-07-13 21:13:15,462 basehttp 124 "GET /media/course/02.png HTTP/1.1" 200 41319
+INFO 2020-07-13 21:13:16,873 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=4 HTTP/1.1" 200 660
+INFO 2020-07-13 21:13:16,885 basehttp 124 "GET /media/course/07_OLKUxrj.png HTTP/1.1" 200 85626
+INFO 2020-07-13 21:13:16,885 basehttp 124 "GET /media/course/04.jpg HTTP/1.1" 200 33637
+INFO 2020-07-13 21:13:17,731 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=5 HTTP/1.1" 200 333
+INFO 2020-07-13 21:13:18,903 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=6 HTTP/1.1" 200 629
+INFO 2020-07-13 21:13:18,911 basehttp 124 "GET /media/course/01.png HTTP/1.1" 200 77296
+INFO 2020-07-13 21:13:19,901 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=7 HTTP/1.1" 200 627
+INFO 2020-07-13 21:13:22,106 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=8 HTTP/1.1" 200 339
+INFO 2020-07-13 21:13:27,222 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price HTTP/1.1" 200 592
+INFO 2020-07-13 21:13:29,792 basehttp 124 "GET /courseapp/course_filter/?page=1&size=10&ordering=price HTTP/1.1" 200 3212
+INFO 2020-07-13 21:13:33,849 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=price HTTP/1.1" 200 1186
+INFO 2020-07-13 21:13:36,081 basehttp 124 "GET /courseapp/course_filter/?page=1&size=5&ordering=price HTTP/1.1" 200 1766
+INFO 2020-07-13 21:13:38,836 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price HTTP/1.1" 200 592
+INFO 2020-07-13 21:13:45,683 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=1 HTTP/1.1" 200 1021
+INFO 2020-07-13 21:15:07,529 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 21:15:07,541 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-13 21:15:07,548 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:15:07,553 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:19:24,355 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 21:19:24,369 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-13 21:19:24,379 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:19:24,385 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:19:31,403 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-13 21:19:31,409 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:19:34,123 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 21:19:34,172 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-13 21:19:36,279 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+INFO 2020-07-13 21:19:43,435 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 719
+INFO 2020-07-13 21:19:48,896 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 730
+INFO 2020-07-13 21:19:51,685 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 719
+INFO 2020-07-13 21:19:53,572 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=1 HTTP/1.1" 200 1021
+INFO 2020-07-13 21:21:29,934 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 21:21:29,952 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-13 21:21:29,962 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:21:29,965 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:21:38,732 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+INFO 2020-07-13 21:21:38,739 basehttp 124 "GET /media/course/10.png HTTP/1.1" 304 0
+INFO 2020-07-13 21:21:38,739 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:30:05,553 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:30:05,613 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:31:29,641 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:31:29,641 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:31:34,977 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:36:28,835 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:38:48,943 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:38:49,020 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:38:54,041 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:42:46,772 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:43:08,224 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 21:43:08,241 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-13 21:43:08,250 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:08,253 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:10,705 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 21:43:12,503 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-13 21:43:12,518 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-13 21:43:14,124 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 22:00:30,404 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-13 22:00:30,425 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-13 22:25:44,728 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x0000024133541978> GET Got AttributeError when attempting to get a value for field `name` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2020-07-13 22:25:44,729 basehttp 124 "GET /courseapp/course_detail/?name=%22python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%22 HTTP/1.1" 500 56
+WARNING 2020-07-13 22:27:02,590 base 93 Not Found: /courseapp/course_detail/
+WARNING 2020-07-13 22:27:02,591 basehttp 124 "GET /courseapp/course_detail/?name=%22python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%22 HTTP/1.1" 404 3205
+WARNING 2020-07-13 22:29:29,291 base 93 Not Found: /courseapp/course_detail/
+WARNING 2020-07-13 22:29:29,292 basehttp 124 "GET /courseapp/course_detail/?name=python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB HTTP/1.1" 404 3199
+ERROR 2020-07-13 22:29:47,613 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x000002AACF88A240> GET Got AttributeError when attempting to get a value for field `name` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2020-07-13 22:29:47,614 basehttp 124 "GET /courseapp/course_detail/?name=python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB HTTP/1.1" 500 56
+ERROR 2020-07-13 22:33:34,119 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x0000025C16CF2940> GET Got AttributeError when attempting to get a value for field `name` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2020-07-13 22:33:34,120 basehttp 124 "GET /courseapp/course_detail/?name=python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB HTTP/1.1" 500 56
+ERROR 2020-07-13 22:34:02,820 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x0000021D36C52358> GET Got AttributeError when attempting to get a value for field `name` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2020-07-13 22:34:02,822 basehttp 124 "GET /courseapp/course_detail/?name=python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB HTTP/1.1" 500 56
+INFO 2020-07-13 22:40:03,353 basehttp 124 "GET /courseapp/course_detail/?name=python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB HTTP/1.1" 200 28
+WARNING 2020-07-13 22:44:47,050 base 93 Not Found: /courseapp/course_detail/
+WARNING 2020-07-13 22:44:47,051 basehttp 124 "GET /courseapp/course_detail/?pk=1 HTTP/1.1" 404 3154
+ERROR 2020-07-13 22:45:02,659 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x000002157A982588> GET Got AttributeError when attempting to get a value for field `name` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2020-07-13 22:45:02,660 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 500 56
+ERROR 2020-07-13 22:48:16,238 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x0000020C51467F60> GET 'Teacher' object is not iterable
+ERROR 2020-07-13 22:48:16,239 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 500 56
+WARNING 2020-07-13 22:54:24,638 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 405 40
+INFO 2020-07-13 23:04:03,152 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 200 28
+INFO 2020-07-13 23:04:17,715 basehttp 124 "GET /courseapp/course_detail/?pk=1 HTTP/1.1" 200 28
+INFO 2020-07-13 23:04:44,197 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 28
+INFO 2020-07-14 06:47:18,000 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 28
+INFO 2020-07-14 06:48:36,443 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 28
+INFO 2020-07-14 06:49:00,332 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 200 28
+INFO 2020-07-14 06:51:41,919 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 200 28
+INFO 2020-07-14 06:56:18,490 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 200 28
+ERROR 2020-07-14 06:57:44,562 exception 118 Internal Server Error: /courseapp/course_detail/2/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-07-14 06:57:45,831 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 500 89226
+ERROR 2020-07-14 06:59:38,357 exception 118 Internal Server Error: /courseapp/course_detail/2/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-07-14 06:59:38,445 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 500 89226
+ERROR 2020-07-14 07:02:58,928 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x00000206E10B6978> GET 'Teacher' object is not iterable
+ERROR 2020-07-14 07:03:20,333 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x0000020F631A2AC8> GET 'Teacher' object is not iterable
+ERROR 2020-07-14 07:03:20,334 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 500 56
+ERROR 2020-07-14 07:18:26,976 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x000001C37F8628D0> GET Got AttributeError when attempting to get a value for field `course` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Course` instance.
+Original exception text was: 'Course' object has no attribute 'course'.
+ERROR 2020-07-14 07:18:26,976 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 500 56
+INFO 2020-07-14 07:20:45,461 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 200 305
+INFO 2020-07-14 07:21:12,322 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 608
+INFO 2020-07-14 07:22:40,911 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 176
+INFO 2020-07-14 07:28:52,292 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-14 07:28:52,301 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 07:28:52,322 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 304 0
+INFO 2020-07-14 07:28:52,336 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 304 0
+INFO 2020-07-14 07:28:52,354 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 304 0
+INFO 2020-07-14 07:28:54,814 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:28:54,831 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:28:54,857 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 07:28:54,894 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 07:31:48,038 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:31:48,051 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+ERROR 2020-07-14 07:32:05,299 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:32:05,311 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:32:05,339 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86257
+ERROR 2020-07-14 07:34:07,375 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:34:07,447 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:34:07,735 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86392
+INFO 2020-07-14 07:34:36,013 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:34:36,030 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:34:36,081 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-14 07:34:36,091 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-14 07:34:39,211 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+INFO 2020-07-14 07:34:39,270 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 200 98963
+INFO 2020-07-14 07:34:39,270 basehttp 124 "GET /media/course/10.png HTTP/1.1" 200 89891
+ERROR 2020-07-14 07:34:41,305 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:34:41,347 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:34:41,348 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86392
+INFO 2020-07-14 07:35:04,746 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:35:04,760 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:35:06,338 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+ERROR 2020-07-14 07:35:07,772 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:35:07,810 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:35:07,810 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86392
+INFO 2020-07-14 07:35:10,153 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:35:10,160 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:35:25,785 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+ERROR 2020-07-14 07:35:28,367 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:35:28,403 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:35:28,403 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86392
+ERROR 2020-07-14 07:36:55,776 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:36:55,802 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:36:55,874 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86391
+INFO 2020-07-14 07:37:55,567 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 608
+INFO 2020-07-14 07:38:06,864 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 07:38:06,868 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-14 07:38:09,073 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:38:09,115 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:38:10,735 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+ERROR 2020-07-14 07:38:16,056 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:38:16,072 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:38:16,123 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86257
+ERROR 2020-07-14 07:43:26,678 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:43:26,725 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:43:26,726 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86257
+ERROR 2020-07-14 07:45:32,503 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:45:32,546 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:45:32,555 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86257
+INFO 2020-07-14 07:45:37,428 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:45:37,431 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:45:39,161 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+ERROR 2020-07-14 07:45:40,866 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:45:40,903 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:45:40,903 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86257
+INFO 2020-07-14 07:49:01,716 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:49:01,749 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:49:03,409 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+ERROR 2020-07-14 07:49:06,216 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 07:49:06,311 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 07:49:06,329 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86257
+INFO 2020-07-14 07:52:52,376 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:52:52,394 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:52:53,911 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+ERROR 2020-07-14 07:52:59,193 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-07-14 07:52:59,240 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86391
+INFO 2020-07-14 07:52:59,246 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 07:55:26,468 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 07:55:26,485 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 07:55:27,878 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+INFO 2020-07-14 07:55:30,451 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 727
+INFO 2020-07-14 07:55:30,500 basehttp 124 "GET /media/course/06.png HTTP/1.1" 200 81807
+ERROR 2020-07-14 07:55:35,402 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-07-14 07:55:35,447 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86391
+INFO 2020-07-14 07:55:35,448 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 07:56:37,084 basehttp 124 "GET /courseapp/course_detail/3/ HTTP/1.1" 200 299
+ERROR 2020-07-14 07:56:48,218 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-07-14 07:56:48,254 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86726
+INFO 2020-07-14 08:04:17,412 basehttp 124 "GET /courseapp/course_detail/4/ HTTP/1.1" 200 324
+INFO 2020-07-14 08:05:21,516 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:05:21,542 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 08:05:23,278 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+ERROR 2020-07-14 08:05:35,974 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 08:05:35,996 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 08:05:36,024 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86391
+INFO 2020-07-14 08:06:56,082 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:06:56,110 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 08:06:57,884 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+ERROR 2020-07-14 08:07:00,589 exception 118 Internal Server Error: /courseapp/course_detail/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\testenv03\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 499, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\testenv03\lib\site-packages\rest_framework\views.py", line 414, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2020-07-14 08:07:00,632 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 08:07:00,795 basehttp 124 "GET /courseapp/course_detail/ HTTP/1.1" 500 86390
+INFO 2020-07-14 08:38:47,361 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:38:47,373 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 08:38:52,980 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:38:53,005 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 08:38:53,030 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-14 08:38:53,034 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-14 08:39:02,675 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+INFO 2020-07-14 08:39:02,690 basehttp 124 "GET /media/course/10.png HTTP/1.1" 200 89891
+INFO 2020-07-14 08:39:02,692 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 200 98963
+INFO 2020-07-14 08:39:06,152 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=2 HTTP/1.1" 200 629
+INFO 2020-07-14 08:39:06,221 basehttp 124 "GET /media/course/07.png HTTP/1.1" 200 85626
+INFO 2020-07-14 08:39:06,222 basehttp 124 "GET /media/course/08.jpg HTTP/1.1" 200 49095
+INFO 2020-07-14 08:39:09,628 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-14 08:39:09,662 base 93 Not Found: /courseapp/course_detail5/
+WARNING 2020-07-14 08:39:09,662 basehttp 124 "GET /courseapp/course_detail5/ HTTP/1.1" 404 3323
+INFO 2020-07-14 08:39:38,911 basehttp 124 "GET /courseapp/course_detail/5/ HTTP/1.1" 200 324
+INFO 2020-07-14 08:39:38,912 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 08:39:43,532 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:39:43,544 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 08:39:47,402 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 716
+INFO 2020-07-14 08:39:49,667 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=3 HTTP/1.1" 200 341
+INFO 2020-07-14 08:39:49,678 basehttp 124 "GET /media/course/02.png HTTP/1.1" 200 41319
+INFO 2020-07-14 08:39:51,474 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 08:39:51,474 basehttp 124 "GET /courseapp/course_detail/6/ HTTP/1.1" 200 325
+INFO 2020-07-14 08:42:43,805 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 08:42:43,813 basehttp 124 "GET /courseapp/course_detail/6/ HTTP/1.1" 200 325
+INFO 2020-07-14 08:44:51,434 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:44:51,441 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 694
+INFO 2020-07-14 08:44:53,499 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 08:44:53,500 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 318
+INFO 2020-07-14 08:52:14,059 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 08:52:14,071 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 430
+INFO 2020-07-14 08:52:14,143 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-14 08:53:17,034 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:53:17,050 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 916
+INFO 2020-07-14 08:53:17,065 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-14 08:53:17,066 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-14 08:53:20,443 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 924
+INFO 2020-07-14 08:53:20,449 basehttp 124 "GET /media/course/10.png HTTP/1.1" 200 89891
+INFO 2020-07-14 08:53:20,452 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 200 98963
+INFO 2020-07-14 08:53:23,444 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 08:53:23,445 basehttp 124 "GET /courseapp/course_detail/3/ HTTP/1.1" 200 432
+INFO 2020-07-14 08:53:37,433 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:53:37,439 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 916
+INFO 2020-07-14 08:53:38,863 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=4 HTTP/1.1" 200 880
+INFO 2020-07-14 08:53:38,919 basehttp 124 "GET /media/course/07_OLKUxrj.png HTTP/1.1" 200 85626
+INFO 2020-07-14 08:53:38,920 basehttp 124 "GET /media/course/04.jpg HTTP/1.1" 200 33637
+INFO 2020-07-14 08:53:42,643 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 08:53:42,645 basehttp 124 "GET /courseapp/course_detail/8/ HTTP/1.1" 200 444
+INFO 2020-07-14 08:53:42,722 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 416648
+INFO 2020-07-14 08:53:56,807 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:53:56,811 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 916
+INFO 2020-07-14 08:53:59,069 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 924
+INFO 2020-07-14 08:54:01,573 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 08:54:01,579 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 200 422
+INFO 2020-07-14 08:54:01,607 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 200 28501
+INFO 2020-07-14 08:55:13,597 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-14 08:55:13,616 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 916
+INFO 2020-07-14 08:55:16,083 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=1 HTTP/1.1" 200 924
+INFO 2020-07-14 08:55:18,596 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 927
+INFO 2020-07-14 08:55:20,207 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=1 HTTP/1.1" 200 1229
+INFO 2020-07-14 08:55:20,213 basehttp 124 "GET /media/course/06.png HTTP/1.1" 304 0
+INFO 2020-07-14 08:55:24,817 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 725
+INFO 2020-07-14 08:55:24,818 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-14 08:59:26,509 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x00000193D9AAB7B8> GET The field 'course' was declared on serializer CourseModelSerializer, but has not been included in the 'fields' option.
+ERROR 2020-07-14 08:59:26,510 basehttp 124 "GET /courseapp/course_detail/4/ HTTP/1.1" 500 56
+ERROR 2020-07-14 09:00:06,703 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x00000203C7D96FD0> GET Got AttributeError when attempting to get a value for field `course` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Course` instance.
+Original exception text was: 'Course' object has no attribute 'course'.
+ERROR 2020-07-14 09:00:06,703 basehttp 124 "GET /courseapp/course_detail/4/ HTTP/1.1" 500 56
+INFO 2020-07-14 09:33:48,730 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 09:33:48,735 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 857
+INFO 2020-07-14 09:33:48,777 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 09:44:49,324 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 09:44:49,335 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 855
+INFO 2020-07-14 09:44:49,366 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 09:48:11,402 basehttp 124 "GET /courseapp/course_detail/4/ HTTP/1.1" 200 452
+INFO 2020-07-14 09:48:20,776 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 855
+INFO 2020-07-14 09:51:29,538 basehttp 124 "GET /admin/ HTTP/1.1" 200 2602
+INFO 2020-07-14 09:51:29,551 basehttp 124 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:29,553 basehttp 124 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:29,554 basehttp 124 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,814 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 17393
+INFO 2020-07-14 09:51:33,835 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,841 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,842 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,842 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,845 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,845 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,845 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,858 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,860 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,861 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,863 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,865 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,867 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,869 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-14 09:51:33,872 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,873 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,874 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,874 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,874 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,878 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:33,901 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+WARNING 2020-07-14 09:51:34,030 base 93 Not Found: /favicon.ico
+WARNING 2020-07-14 09:51:34,031 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2533
+INFO 2020-07-14 09:51:38,667 basehttp 124 "GET /xadmin/courseapp/coursechapter/ HTTP/1.1" 200 31014
+INFO 2020-07-14 09:51:38,687 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:38,690 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:38,690 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:38,692 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:38,694 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:38,695 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:38,700 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-07-14 09:51:38,700 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-14 09:51:45,855 basehttp 124 "GET /xadmin/courseapp/courselesson/ HTTP/1.1" 200 31950
+INFO 2020-07-14 09:51:45,871 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-14 09:51:52,124 basehttp 124 "GET /xadmin/courseapp/coursechapter/ HTTP/1.1" 200 31014
+INFO 2020-07-14 09:51:52,141 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2020-07-14 09:54:06,139 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x000001EF60D50BA8> GET Cannot resolve keyword 'chapter_id' into field. Choices are: chapter, course, course_id, coursesections, create_time, edit_time, id, is_delete, is_show, name, orders, pub_date, summary
+ERROR 2020-07-14 09:54:06,140 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 500 56
+INFO 2020-07-14 09:56:06,700 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 855
+INFO 2020-07-14 09:56:51,616 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1059
+ERROR 2020-07-14 10:05:17,107 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x000001EEA11A9320> GET Field name `lesson_list` is not valid for model `Course`.
+ERROR 2020-07-14 10:05:17,107 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 500 56
+INFO 2020-07-14 10:05:43,680 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 441
+INFO 2020-07-14 10:06:46,748 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 424
+INFO 2020-07-14 10:11:13,880 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1059
+INFO 2020-07-14 10:13:00,065 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 10:13:00,079 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1059
+INFO 2020-07-14 10:20:47,200 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1059
+ERROR 2020-07-14 10:23:00,221 exceptions 18 <courseapp.views.CourseDetailAPIView object at 0x000002210575FB38> GET Cannot resolve keyword 'chapter_id' into field. Choices are: chapter, course, course_id, coursesections, create_time, edit_time, id, is_delete, is_show, name, orders, pub_date, summary
+ERROR 2020-07-14 10:23:00,222 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 500 56
+INFO 2020-07-14 10:23:57,134 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1136
+INFO 2020-07-14 10:26:22,165 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1041
+INFO 2020-07-14 10:26:45,114 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1041
+INFO 2020-07-14 10:27:22,292 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1136
+INFO 2020-07-14 10:40:48,627 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1041
+INFO 2020-07-14 10:42:20,651 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1041
+INFO 2020-07-14 10:45:05,480 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1041
+INFO 2020-07-14 10:45:24,103 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 837
+INFO 2020-07-14 10:47:41,754 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 837
+INFO 2020-07-14 10:54:49,169 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 946
+INFO 2020-07-14 10:55:32,744 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1240
+INFO 2020-07-14 11:12:22,316 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 1240
+INFO 2020-07-14 11:14:22,821 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 515
+INFO 2020-07-14 11:14:43,868 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 406
+INFO 2020-07-14 11:14:45,752 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 406
+INFO 2020-07-14 11:15:28,881 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 406
+INFO 2020-07-14 11:19:54,131 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 406
+INFO 2020-07-14 11:23:39,242 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 406
+INFO 2020-07-14 11:24:02,440 basehttp 124 "GET /xadmin/courseapp/coursechapter/4/update/ HTTP/1.1" 200 23356
+INFO 2020-07-14 11:24:02,469 basehttp 124 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:24:02,471 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:24:02,473 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:24:02,475 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:24:02,479 basehttp 124 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:24:02,482 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+WARNING 2020-07-14 11:24:02,484 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-14 11:24:02,485 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:24:02,488 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-14 11:24:02,547 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-14 11:24:11,016 basehttp 124 "GET /xadmin/courseapp/courselesson/ HTTP/1.1" 200 31950
+INFO 2020-07-14 11:24:11,036 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-14 11:24:52,765 basehttp 124 "GET /xadmin/courseapp/courselesson/1/update/ HTTP/1.1" 200 25308
+WARNING 2020-07-14 11:24:52,786 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-14 11:24:52,790 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-07-14 11:24:52,829 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1759
+INFO 2020-07-14 11:25:58,477 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 963
+INFO 2020-07-14 11:37:59,966 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 11:37:59,973 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 963
+INFO 2020-07-14 11:45:14,133 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 11:45:14,147 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 963
+INFO 2020-07-14 11:45:14,197 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 11:51:07,459 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 962
+INFO 2020-07-14 11:53:46,282 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 11:53:46,283 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 962
+INFO 2020-07-14 12:00:09,293 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 12:00:09,299 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 962
+INFO 2020-07-14 12:09:31,951 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-14 12:09:31,954 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 962
+INFO 2020-07-14 12:09:32,075 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 200 28501
+INFO 2020-07-14 12:27:17,469 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 966
