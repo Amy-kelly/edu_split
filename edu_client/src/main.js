@@ -6,11 +6,13 @@ import router from './router'
 
 //配置axios
 import axios from "axios"
+
 Vue.prototype.$axios = axios
 
 //配置element-ui
 import Element from "element-ui"
 import 'element-ui/lib/theme-chalk/index.css'
+
 Vue.use(Element)
 
 // 导入极验
@@ -25,12 +27,16 @@ import VideoPlayer from 'vue-video-player'
 
 Vue.use(VideoPlayer);
 
+//配置状态机vuex
+import store from "./store/index";
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    store,
+    components: {App},
+    template: '<App/>'
 })

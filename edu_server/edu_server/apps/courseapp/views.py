@@ -76,10 +76,10 @@ class CourseDetailAPIView(RetrieveModelMixin,GenericAPIView):
             })
 
 class CommentGenericAPIView(ListModelMixin,
-                             CreateModelMixin,
+                             # CreateModelMixin,
                              RetrieveModelMixin,
                              UpdateModelMixin,
-                             DestroyModelMixin,
+                             # DestroyModelMixin,
                              GenericAPIView):
     queryset = Course.objects.all()
     serializer_class = CommentModelSerializer

@@ -31,7 +31,7 @@
                             <button class="buy-now">立即购买</button>
                             <button class="free">免费试学</button>
                         </div>
-                        <div class="add-cart"><img src="/static/image/cart-yellow.svg" alt="">加入购物车</div>
+                        <div class="add-cart"><img src="/static/image/cart-yellow.svg" alt="" @click="add_cart">加入购物车</div>
                     </div>
                 </div>
             </div>
@@ -151,6 +151,44 @@
             }
         },
         methods: {
+            //检查用户是否已经登录
+            check_user_login(){
+              let token = localStorage.user_token || sessionStorage.user_token;
+              if(!token){
+                  let self = this;
+                  this.$confirm("请先登录",{
+                      //返回登录页面
+                      callback(){
+                          self.$router.push("/login");
+                      }
+                  });
+                  return false
+              }
+              return token;
+            },
+            //将课程添加至购物车
+            add_cart(){
+                let token = this.check_user_login();
+                this.$axios.post(`http://127.0.0.1:8000/cartapp/cart/`,
+                    {
+                        course_id:this.$route.params.id,
+                          },
+                    {
+                        headers:{
+                            "Authorization":"jwt "+token,
+                        }
+                        }
+                ).then(response=>{
+                    //将后端的信息提示显示在前端
+                    this.$message.success(response.data.message);
+                    // console.log(response.data);
+                    //向状态机提交动作修改商品的总数
+                    this.$store.commit("add_cart",response.data.course_length)
+                }).catch(error=>{
+                    console.log(this.$message.error)
+                    this.$message.error("抱歉，加入购物车失败")
+                })
+            },
             onPlayerPlay(event) {
 
             },
@@ -200,7 +238,6 @@
             add_comment(){
                 let id = this.$route.params.id;
                 this.comment_list.push(this.comment)
-
                this.$axios({
                    url:"http://127.0.0.1:8000/courseapp/course_comment/"+`${id}/`,
                    method:'patch',

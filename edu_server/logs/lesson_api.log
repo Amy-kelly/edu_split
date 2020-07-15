@@ -2992,3 +2992,952 @@ INFO 2020-07-14 23:33:35,514 basehttp 124 "GET /static/ckeditor/ckeditor/plugins
 INFO 2020-07-14 23:33:35,522 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png HTTP/1.1" 304 0
 INFO 2020-07-14 23:33:35,522 basehttp 124 "GET /media/06.png HTTP/1.1" 304 0
 INFO 2020-07-14 23:33:36,626 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/heart.png HTTP/1.1" 200 999
+INFO 2020-07-15 08:34:50,882 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 08:34:50,882 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 08:34:50,924 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:34:50,925 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:34:53,687 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 08:34:53,697 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 08:34:53,715 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 08:34:53,732 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 08:34:53,813 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 08:34:57,956 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-students HTTP/1.1" 200 1192
+INFO 2020-07-15 08:34:57,974 basehttp 124 "GET /media/course/04_gkK8Cgq.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 08:34:57,975 basehttp 124 "GET /media/course/08.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:03,327 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=-students HTTP/1.1" 200 1291
+INFO 2020-07-15 08:35:03,335 basehttp 124 "GET /media/course/07.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:03,343 basehttp 124 "GET /media/course/04.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:07,114 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=-price HTTP/1.1" 200 1212
+INFO 2020-07-15 08:35:07,120 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:13,205 basehttp 124 "GET /courseapp/course_filter/?page=3&size=2&ordering=-price HTTP/1.1" 200 1293
+INFO 2020-07-15 08:35:13,219 basehttp 124 "GET /media/course/03.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:16,086 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price HTTP/1.1" 200 1214
+INFO 2020-07-15 08:35:16,093 basehttp 124 "GET /media/course/07_OLKUxrj.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:19,925 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price HTTP/1.1" 200 4876
+INFO 2020-07-15 08:35:20,006 basehttp 124 "GET /media/course/06.png HTTP/1.1" 200 81807
+INFO 2020-07-15 08:35:27,531 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=1 HTTP/1.1" 200 4919
+INFO 2020-07-15 08:35:27,541 basehttp 124 "GET /media/course/10.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:28,172 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=2 HTTP/1.1" 200 1124
+INFO 2020-07-15 08:35:28,709 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=3 HTTP/1.1" 200 587
+INFO 2020-07-15 08:35:28,715 basehttp 124 "GET /media/course/02.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:29,200 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=4 HTTP/1.1" 200 1181
+INFO 2020-07-15 08:35:29,720 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=5 HTTP/1.1" 200 566
+INFO 2020-07-15 08:35:30,325 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=6 HTTP/1.1" 200 1043
+INFO 2020-07-15 08:35:30,333 basehttp 124 "GET /media/course/01.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:31,089 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=7 HTTP/1.1" 200 1102
+INFO 2020-07-15 08:35:31,096 basehttp 124 "GET /media/course/11.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 08:35:31,614 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price&course_category=8 HTTP/1.1" 200 587
+INFO 2020-07-15 08:35:32,994 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price HTTP/1.1" 200 4876
+INFO 2020-07-15 08:35:36,700 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 08:35:36,702 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 08:35:56,576 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 08:35:56,579 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 08:35:56,587 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 08:36:02,993 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=-id HTTP/1.1" 200 1213
+INFO 2020-07-15 08:36:04,369 basehttp 124 "GET /courseapp/course_filter/?page=3&size=2&ordering=-id HTTP/1.1" 200 1213
+INFO 2020-07-15 08:36:04,884 basehttp 124 "GET /courseapp/course_filter/?page=4&size=2&ordering=-id HTTP/1.1" 200 1324
+INFO 2020-07-15 08:36:05,370 basehttp 124 "GET /courseapp/course_filter/?page=5&size=2&ordering=-id HTTP/1.1" 200 1289
+INFO 2020-07-15 08:36:07,316 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=-id HTTP/1.1" 200 1710
+INFO 2020-07-15 08:36:11,943 basehttp 124 "GET /courseapp/course_filter/?page=1&size=5&ordering=-id HTTP/1.1" 200 2702
+INFO 2020-07-15 08:36:11,948 basehttp 124 "GET /courseapp/course_filter/?page=3&size=5&ordering=-id HTTP/1.1" 200 5919
+INFO 2020-07-15 08:36:14,986 basehttp 124 "GET /courseapp/course_filter/?page=2&size=10&ordering=-id HTTP/1.1" 200 5913
+INFO 2020-07-15 08:36:15,033 basehttp 124 "GET /courseapp/course_filter/?page=1&size=10&ordering=-id HTTP/1.1" 200 5443
+INFO 2020-07-15 08:36:18,494 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 08:36:25,343 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-students HTTP/1.1" 200 1192
+INFO 2020-07-15 08:36:29,790 basehttp 124 "GET /courseapp/course_filter/?page=3&size=2&ordering=-students HTTP/1.1" 200 1296
+INFO 2020-07-15 08:36:34,426 basehttp 124 "GET /courseapp/course_filter/?page=3&size=2&ordering=students HTTP/1.1" 200 4978
+INFO 2020-07-15 08:36:39,628 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=students HTTP/1.1" 200 1172
+INFO 2020-07-15 08:36:43,551 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=students HTTP/1.1" 200 1225
+INFO 2020-07-15 08:36:46,763 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=price HTTP/1.1" 200 1231
+INFO 2020-07-15 08:36:51,148 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=price HTTP/1.1" 200 4876
+INFO 2020-07-15 08:36:54,152 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=price HTTP/1.1" 200 1231
+INFO 2020-07-15 08:36:57,697 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=-price HTTP/1.1" 200 1212
+INFO 2020-07-15 08:37:01,701 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price HTTP/1.1" 200 1214
+INFO 2020-07-15 08:37:06,738 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 1187
+INFO 2020-07-15 08:37:08,873 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=2 HTTP/1.1" 200 1124
+INFO 2020-07-15 08:37:09,567 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=3 HTTP/1.1" 200 587
+INFO 2020-07-15 08:37:10,606 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=4 HTTP/1.1" 200 1181
+INFO 2020-07-15 08:37:11,110 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=5 HTTP/1.1" 200 566
+INFO 2020-07-15 08:37:11,545 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=6 HTTP/1.1" 200 1043
+INFO 2020-07-15 08:37:12,282 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=7 HTTP/1.1" 200 1102
+INFO 2020-07-15 08:37:12,791 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=8 HTTP/1.1" 200 587
+INFO 2020-07-15 08:37:13,813 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-price&course_category=1 HTTP/1.1" 200 1187
+INFO 2020-07-15 08:37:15,245 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-students&course_category=1 HTTP/1.1" 200 4889
+INFO 2020-07-15 08:37:18,327 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=-students&course_category=1 HTTP/1.1" 200 678
+INFO 2020-07-15 08:37:24,875 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-students&course_category=1 HTTP/1.1" 200 4889
+INFO 2020-07-15 08:37:26,737 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 08:37:26,744 basehttp 124 "GET /courseapp/course_comment/1/ HTTP/1.1" 200 958
+INFO 2020-07-15 08:37:26,751 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 4273
+INFO 2020-07-15 08:37:26,854 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 200 28501
+INFO 2020-07-15 08:37:27,218 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 1310720
+ERROR 2020-07-15 08:37:27,223 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 500 59
+INFO 2020-07-15 08:37:31,225 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 11166385
+INFO 2020-07-15 08:37:55,368 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 11166385
+INFO 2020-07-15 08:38:13,197 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/heart.png HTTP/1.1" 200 999
+INFO 2020-07-15 08:38:15,379 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:15,379 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:15,381 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:15,383 basehttp 124 "GET /media/06.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:15,384 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:15,387 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:15,392 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:39,393 basehttp 124 "OPTIONS /courseapp/course_comment/1/ HTTP/1.1" 200 0
+INFO 2020-07-15 08:38:39,452 basehttp 124 "PATCH /courseapp/course_comment/1/ HTTP/1.1" 200 993
+INFO 2020-07-15 08:38:40,178 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 08:38:40,180 basehttp 124 "GET /courseapp/course_comment/1/ HTTP/1.1" 200 993
+INFO 2020-07-15 08:38:40,186 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 4273
+INFO 2020-07-15 08:38:40,230 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:40,318 basehttp 124 "GET /media/course/06.png HTTP/1.1" 304 0
+INFO 2020-07-15 08:38:40,391 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 344064
+ERROR 2020-07-15 08:38:40,392 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 500 59
+INFO 2020-07-15 08:38:44,361 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 11166385
+INFO 2020-07-15 08:41:08,804 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 4273
+INFO 2020-07-15 16:50:54,787 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 16:50:54,787 basehttp 124 "GET /courseapp/course_comment/1/ HTTP/1.1" 200 993
+INFO 2020-07-15 16:50:54,808 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 4273
+INFO 2020-07-15 16:50:54,843 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 16:50:55,051 basehttp 124 "GET /media/course/06.png HTTP/1.1" 304 0
+INFO 2020-07-15 16:50:55,135 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 204800
+ERROR 2020-07-15 16:50:55,139 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 500 59
+INFO 2020-07-15 16:50:59,137 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 11166385
+INFO 2020-07-15 16:51:38,947 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 16:51:38,999 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+WARNING 2020-07-15 16:51:39,231 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 16:58:24,993 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 16:58:24,999 basehttp 124 "GET /courseapp/course_comment/1/ HTTP/1.1" 200 993
+INFO 2020-07-15 16:58:25,014 basehttp 124 "GET /courseapp/course_detail/1/ HTTP/1.1" 200 4273
+INFO 2020-07-15 16:58:25,122 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 200 28501
+INFO 2020-07-15 16:58:25,359 basehttp 124 "GET /media/course/06.png HTTP/1.1" 200 81807
+INFO 2020-07-15 16:58:25,361 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 147456
+ERROR 2020-07-15 16:58:25,363 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 500 59
+INFO 2020-07-15 16:58:29,368 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 11166385
+INFO 2020-07-15 16:58:42,164 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 16:58:42,167 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 16:58:56,529 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 200 8388608
+ERROR 2020-07-15 16:58:56,529 basehttp 124 "GET /media/video/20200712_210806.mp4 HTTP/1.1" 500 59
+INFO 2020-07-15 16:59:06,446 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 16:59:13,887 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 16:59:13,890 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 16:59:13,895 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 16:59:13,988 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 16:59:14,042 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 16:59:14,056 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 16:59:14,113 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 737783
+INFO 2020-07-15 16:59:14,129 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 16:59:14,134 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 16:59:33,458 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 16:59:33,458 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 16:59:33,570 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 16:59:33,624 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 16:59:33,635 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 16:59:37,687 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 16:59:37,687 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+INFO 2020-07-15 16:59:37,688 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 16:59:37,767 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 16:59:41,243 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 16:59:41,246 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+WARNING 2020-07-15 17:02:00,311 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 17:03:22,826 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:03:22,831 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:03:22,832 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+WARNING 2020-07-15 17:03:31,566 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 17:07:24,502 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 17:07:24,513 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:07:24,533 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 17:07:30,672 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:07:30,696 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 17:07:30,714 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 17:07:30,801 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 17:07:30,805 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 17:07:36,181 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:07:36,187 basehttp 124 "GET /courseapp/course_comment/13/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:07:36,195 basehttp 124 "GET /courseapp/course_detail/13/ HTTP/1.1" 200 571
+INFO 2020-07-15 17:07:36,330 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 416648
+INFO 2020-07-15 17:07:41,424 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 17:07:41,429 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+WARNING 2020-07-15 17:09:59,943 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 17:11:57,684 basehttp 124 "GET /courseapp/course_comment/13/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:11:57,689 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:11:57,695 basehttp 124 "GET /courseapp/course_detail/13/ HTTP/1.1" 200 571
+INFO 2020-07-15 17:11:57,777 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 416648
+INFO 2020-07-15 17:11:58,072 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 17:12:02,836 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 17:12:02,840 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 17:12:45,128 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:12:45,142 basehttp 124 "GET /courseapp/course_comment/13/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:12:45,156 basehttp 124 "GET /courseapp/course_detail/13/ HTTP/1.1" 200 571
+INFO 2020-07-15 17:12:45,276 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 212992
+ERROR 2020-07-15 17:12:45,283 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 17:12:45,744 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 17:12:47,951 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 17:12:47,956 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 35
+WARNING 2020-07-15 17:20:30,436 base 93 Not Found: /cartapp/cart/12/
+WARNING 2020-07-15 17:20:30,437 basehttp 124 "POST /cartapp/cart/12/ HTTP/1.1" 404 2818
+INFO 2020-07-15 17:24:24,416 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 17:24:31,594 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 17:24:31,597 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 17:24:31,602 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 17:24:31,684 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 17:24:31,746 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:24:31,746 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 17:24:31,780 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 17:24:31,788 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 737783
+INFO 2020-07-15 17:24:31,796 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 17:24:57,731 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 17:24:57,736 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:24:57,755 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 17:24:57,782 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 17:25:00,910 basehttp 124 "GET /courseapp/course_filter/?page=2&size=2&ordering=-id HTTP/1.1" 200 1213
+INFO 2020-07-15 17:25:00,966 basehttp 124 "GET /media/course/01.png HTTP/1.1" 200 77296
+INFO 2020-07-15 17:25:00,977 basehttp 124 "GET /media/course/11.jpg HTTP/1.1" 200 33010
+INFO 2020-07-15 17:25:02,810 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:25:02,819 basehttp 124 "GET /courseapp/course_detail/12/ HTTP/1.1" 200 573
+INFO 2020-07-15 17:25:02,819 basehttp 124 "GET /courseapp/course_comment/12/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:25:02,846 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 17:25:04,932 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+ERROR 2020-07-15 17:25:04,988 exceptions 18 <cartapp.views.CartViewSet object at 0x00000261995BD1D0> POST invalid literal for int() with base 10: ''
+ERROR 2020-07-15 17:25:04,988 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 17:29:46,798 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:29:46,799 basehttp 124 "GET /courseapp/course_comment/12/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:29:46,817 basehttp 124 "GET /courseapp/course_detail/12/ HTTP/1.1" 200 573
+INFO 2020-07-15 17:29:46,889 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 17:29:47,185 basehttp 124 "GET /media/course/11.jpg HTTP/1.1" 200 33010
+INFO 2020-07-15 17:29:50,405 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+ERROR 2020-07-15 17:29:50,412 exceptions 18 <cartapp.views.CartViewSet object at 0x0000017E82FD8898> POST invalid literal for int() with base 10: ''
+ERROR 2020-07-15 17:29:50,413 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 500 56
+WARNING 2020-07-15 17:34:11,758 base 93 Not Found: /cartapp/cart/12/
+WARNING 2020-07-15 17:34:11,759 basehttp 124 "POST /cartapp/cart/12/ HTTP/1.1" 404 2818
+WARNING 2020-07-15 17:37:34,591 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 401 38
+INFO 2020-07-15 17:40:25,235 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:40:25,236 basehttp 124 "GET /courseapp/course_comment/12/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:40:25,251 basehttp 124 "GET /courseapp/course_detail/12/ HTTP/1.1" 200 573
+INFO 2020-07-15 17:40:25,335 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 17:40:25,653 basehttp 124 "GET /media/course/11.jpg HTTP/1.1" 200 33010
+INFO 2020-07-15 17:40:32,829 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+ERROR 2020-07-15 17:40:32,837 exceptions 18 <cartapp.views.CartViewSet object at 0x0000021498317860> POST invalid literal for int() with base 10: ''
+ERROR 2020-07-15 17:40:32,837 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 17:42:39,928 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:42:39,929 basehttp 124 "GET /courseapp/course_comment/12/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:42:39,929 basehttp 124 "GET /courseapp/course_detail/12/ HTTP/1.1" 200 573
+INFO 2020-07-15 17:42:47,896 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 17:42:48,242 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 17:42:56,487 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 17:42:56,495 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:42:56,503 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 17:42:56,544 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 17:42:56,545 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 17:42:59,399 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 17:42:59,405 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 17:42:59,405 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+INFO 2020-07-15 17:43:02,204 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 18:03:05,244 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:03:05,245 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 18:03:05,276 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+INFO 2020-07-15 18:03:05,389 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 18:03:05,567 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 18:03:12,195 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:03:12,227 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 18:06:04,075 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:09:02,368 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:09:16,140 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:10:41,007 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 18:16:14,234 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:16:14,240 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 18:17:03,043 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:17:03,053 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 18:17:32,809 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:17:32,817 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 18:17:38,345 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:17:38,351 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 18:18:28,087 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:18:28,097 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:18:47,387 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 18:18:54,192 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:18:54,199 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 18:18:54,207 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:18:54,293 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 18:18:54,339 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:18:54,344 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 18:18:54,380 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 18:18:54,384 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 18:18:54,385 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 737783
+INFO 2020-07-15 18:19:03,786 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 18:19:03,790 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:19:03,799 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 18:19:03,824 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 18:19:03,827 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 18:19:06,060 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 18:19:06,060 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:19:06,061 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+INFO 2020-07-15 18:19:06,085 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 18:19:08,631 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:19:08,650 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+WARNING 2020-07-15 18:19:12,791 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:19:12,795 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 18:21:46,085 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:21:46,092 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:22:01,513 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:22:01,513 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 18:22:01,525 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+INFO 2020-07-15 18:22:01,570 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 18:22:01,810 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 18:22:09,760 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:22:09,769 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+WARNING 2020-07-15 18:22:11,703 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:22:11,707 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:22:18,172 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:22:18,174 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 18:22:18,175 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+INFO 2020-07-15 18:22:18,456 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 18:22:21,307 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 18:22:21,317 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:22:21,322 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 18:22:21,358 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 18:22:24,573 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:22:24,576 basehttp 124 "GET /courseapp/course_comment/13/ HTTP/1.1" 200 80
+INFO 2020-07-15 18:22:24,577 basehttp 124 "GET /courseapp/course_detail/13/ HTTP/1.1" 200 571
+INFO 2020-07-15 18:22:24,597 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 416648
+INFO 2020-07-15 18:22:28,464 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+WARNING 2020-07-15 18:22:30,296 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:22:30,301 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 18:22:49,319 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:22:49,329 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:23:29,988 basehttp 124 "GET /courseapp/course_comment/13/ HTTP/1.1" 200 80
+INFO 2020-07-15 18:23:29,994 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:23:30,007 basehttp 124 "GET /courseapp/course_detail/13/ HTTP/1.1" 200 571
+INFO 2020-07-15 18:23:30,437 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 18:23:32,917 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 18:23:34,794 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 18:23:34,800 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 18:30:14,632 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:30:14,636 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 2
+INFO 2020-07-15 18:31:22,428 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:31:22,439 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:31:22,462 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 2
+INFO 2020-07-15 18:34:50,943 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:34:50,945 basehttp 124 "GET /courseapp/course_comment/13/ HTTP/1.1" 200 80
+INFO 2020-07-15 18:34:50,945 basehttp 124 "GET /courseapp/course_detail/13/ HTTP/1.1" 200 571
+INFO 2020-07-15 18:34:51,009 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 212992
+ERROR 2020-07-15 18:34:51,010 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 18:34:51,318 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 18:34:54,248 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 18:34:58,848 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:34:58,860 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 2
+INFO 2020-07-15 18:35:10,842 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:35:10,845 basehttp 124 "GET /courseapp/course_comment/13/ HTTP/1.1" 200 80
+INFO 2020-07-15 18:35:10,845 basehttp 124 "GET /courseapp/course_detail/13/ HTTP/1.1" 200 571
+INFO 2020-07-15 18:35:11,144 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 18:35:14,836 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 18:35:14,842 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:35:14,854 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 18:35:14,876 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 18:35:17,155 basehttp 124 "GET /courseapp/course_filter/?page=3&size=2&ordering=-id HTTP/1.1" 200 1213
+INFO 2020-07-15 18:35:17,206 basehttp 124 "GET /media/course/03.png HTTP/1.1" 200 120778
+INFO 2020-07-15 18:35:17,220 basehttp 124 "GET /media/course/04_gkK8Cgq.jpg HTTP/1.1" 200 33637
+INFO 2020-07-15 18:35:20,267 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:35:20,272 basehttp 124 "GET /courseapp/course_comment/9/ HTTP/1.1" 200 79
+INFO 2020-07-15 18:35:20,272 basehttp 124 "GET /courseapp/course_detail/9/ HTTP/1.1" 200 550
+INFO 2020-07-15 18:35:20,299 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 18:35:24,950 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:35:24,959 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 18:35:28,285 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:35:28,289 exceptions 18 <cartapp.views.CartViewSet object at 0x000001229F402E10> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:35:28,290 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 18:38:03,342 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:38:03,353 exceptions 18 <cartapp.views.CartViewSet object at 0x000001229F418240> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:38:03,354 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 18:38:10,688 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:38:10,700 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:38:10,714 exceptions 18 <cartapp.views.CartViewSet object at 0x000001229F41E240> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:38:10,716 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 18:45:06,622 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:45:06,635 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:45:06,650 exceptions 18 <cartapp.views.CartViewSet object at 0x000001229F402B70> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:45:06,651 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 18:46:51,857 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:46:51,864 basehttp 124 "GET /courseapp/course_comment/9/ HTTP/1.1" 200 79
+INFO 2020-07-15 18:46:51,867 basehttp 124 "GET /courseapp/course_detail/9/ HTTP/1.1" 200 550
+INFO 2020-07-15 18:46:51,927 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 18:46:52,147 basehttp 124 "GET /media/course/03.png HTTP/1.1" 200 120778
+INFO 2020-07-15 18:46:55,510 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 18:46:57,439 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:46:57,450 exceptions 18 <cartapp.views.CartViewSet object at 0x000001229F44A400> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:46:57,451 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+WARNING 2020-07-15 18:47:28,350 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 38
+WARNING 2020-07-15 18:47:34,423 base 93 Not Found: /cartapp/cart/1/
+WARNING 2020-07-15 18:47:34,424 basehttp 124 "GET /cartapp/cart/1/ HTTP/1.1" 404 2814
+INFO 2020-07-15 18:49:40,388 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 18:49:47,427 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:49:47,431 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 18:49:47,438 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:49:47,522 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 18:49:47,576 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:49:47,579 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 18:49:47,611 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 18:49:47,614 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 598016
+ERROR 2020-07-15 18:49:47,615 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 500 59
+INFO 2020-07-15 18:49:47,616 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 18:49:52,148 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:49:52,155 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:49:52,164 exceptions 18 <cartapp.views.CartViewSet object at 0x000001229F431A90> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:49:52,164 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 18:49:57,507 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 18:49:57,516 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:49:57,528 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 18:49:57,555 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 24576
+ERROR 2020-07-15 18:49:57,558 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 18:49:57,560 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 18:50:00,844 basehttp 124 "GET /courseapp/course_filter/?page=7&size=2&ordering=-id HTTP/1.1" 200 4866
+INFO 2020-07-15 18:50:00,856 basehttp 124 "GET /media/course/06.png HTTP/1.1" 200 81807
+INFO 2020-07-15 18:50:00,901 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 200 98963
+INFO 2020-07-15 18:50:03,039 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 18:50:03,042 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 200 540
+INFO 2020-07-15 18:50:03,043 basehttp 124 "GET /courseapp/course_comment/2/ HTTP/1.1" 200 79
+INFO 2020-07-15 18:50:03,071 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 200 28501
+INFO 2020-07-15 18:50:07,337 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 18:50:10,092 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:50:10,108 exceptions 18 <cartapp.views.CartViewSet object at 0x000001229F3684A8> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:50:10,109 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+WARNING 2020-07-15 18:54:11,661 base 93 Not Found: /cartapp/cart/1/
+WARNING 2020-07-15 18:54:11,661 basehttp 124 "GET /cartapp/cart/1/ HTTP/1.1" 404 2814
+WARNING 2020-07-15 18:54:23,100 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 38
+WARNING 2020-07-15 18:54:55,278 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 88
+WARNING 2020-07-15 18:55:13,516 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 38
+INFO 2020-07-15 18:55:37,552 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 18:55:37,565 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:55:37,605 exceptions 18 <cartapp.views.CartViewSet object at 0x0000021FFD1CC6D8> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:55:37,606 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 18:59:19,002 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:59:19,015 exceptions 18 <cartapp.views.CartViewSet object at 0x0000021FFE289A90> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:59:19,016 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 18:59:52,738 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 18:59:52,740 exceptions 18 <cartapp.views.CartViewSet object at 0x0000021FFE2916A0> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 18:59:52,742 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:00:03,196 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:00:03,214 exceptions 18 <cartapp.views.CartViewSet object at 0x0000021FFE29DFD0> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:00:03,216 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:00:20,302 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 19:00:20,310 basehttp 124 "GET /courseapp/course_comment/2/ HTTP/1.1" 200 79
+INFO 2020-07-15 19:00:20,313 basehttp 124 "GET /courseapp/course_detail/2/ HTTP/1.1" 200 540
+INFO 2020-07-15 19:00:20,357 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 200 28501
+INFO 2020-07-15 19:00:20,624 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 200 98963
+INFO 2020-07-15 19:00:23,350 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 19:00:25,212 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:00:25,213 exceptions 18 <cartapp.views.CartViewSet object at 0x0000021FFD1BB390> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:00:25,214 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:01:16,280 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:01:16,290 exceptions 18 <cartapp.views.CartViewSet object at 0x0000021FFE289FD0> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:01:16,292 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:01:22,402 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:01:22,416 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:01:22,431 exceptions 18 <cartapp.views.CartViewSet object at 0x0000021FFE2C7B00> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:01:22,432 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:04:10,373 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 19:04:17,662 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:04:17,666 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 19:04:17,670 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:04:17,760 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 19:04:17,807 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 19:04:17,813 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 19:04:17,851 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 19:04:17,859 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 598016
+ERROR 2020-07-15 19:04:17,861 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 500 59
+INFO 2020-07-15 19:04:17,864 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 19:04:25,448 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 19:04:25,449 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 19:04:25,455 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 19:04:25,488 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 81920
+ERROR 2020-07-15 19:04:25,489 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 19:04:25,490 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 19:04:27,766 basehttp 124 "GET /courseapp/course_filter/?page=4&size=2&ordering=-id HTTP/1.1" 200 1324
+INFO 2020-07-15 19:04:27,828 basehttp 124 "GET /media/course/07_OLKUxrj.png HTTP/1.1" 200 85626
+INFO 2020-07-15 19:04:27,841 basehttp 124 "GET /media/course/04.jpg HTTP/1.1" 200 33637
+INFO 2020-07-15 19:04:30,405 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 19:04:30,405 basehttp 124 "GET /courseapp/course_comment/7/ HTTP/1.1" 200 79
+INFO 2020-07-15 19:04:30,406 basehttp 124 "GET /courseapp/course_detail/7/ HTTP/1.1" 200 587
+INFO 2020-07-15 19:04:30,431 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 188416
+ERROR 2020-07-15 19:04:30,432 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 19:04:33,050 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:04:33,070 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 19:04:36,294 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:04:36,302 exceptions 18 <cartapp.views.CartViewSet object at 0x00000144182E8390> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:04:36,302 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:06:41,708 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:06:41,731 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:06:41,779 exceptions 18 <cartapp.views.CartViewSet object at 0x0000022A4E5426D8> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:06:41,780 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:24:55,507 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:24:55,520 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:24:55,529 exceptions 18 <cartapp.views.CartViewSet object at 0x0000022A4E63AEF0> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:24:55,529 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:25:02,706 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:25:02,715 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:25:02,729 exceptions 18 <cartapp.views.CartViewSet object at 0x0000022A4E651C18> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:25:02,730 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+WARNING 2020-07-15 19:27:16,023 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 38
+INFO 2020-07-15 19:27:30,624 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:27:30,686 exceptions 18 <cartapp.views.CartViewSet object at 0x000002C188D3FAC8> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:27:30,687 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:28:21,015 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:28:21,071 exceptions 18 <cartapp.views.CartViewSet object at 0x000002B467089BE0> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:28:21,072 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:37:20,626 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:37:20,666 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:37:20,733 exceptions 18 <cartapp.views.CartViewSet object at 0x000001BD6A204E48> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:37:20,735 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:38:11,667 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:38:11,740 exceptions 18 <cartapp.views.CartViewSet object at 0x00000255CB950F28> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:38:11,741 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:39:23,234 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:39:23,296 exceptions 18 <cartapp.views.CartViewSet object at 0x000002B7F81F6390> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:39:23,299 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+WARNING 2020-07-15 19:40:48,126 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 38
+INFO 2020-07-15 19:41:31,227 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:41:31,253 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:41:31,326 exceptions 18 <cartapp.views.CartViewSet object at 0x000001DD25C02BA8> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:41:31,328 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:53:47,680 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 19:53:47,739 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:53:47,801 exceptions 18 <cartapp.views.CartViewSet object at 0x000002851FAE3E80> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:53:47,802 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 19:54:17,545 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 19:54:17,582 exceptions 18 <cartapp.views.CartViewSet object at 0x000001D0C63616A0> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 19:54:17,584 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 20:02:35,214 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 20:02:35,229 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 20:02:35,238 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:03:03,766 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 20:03:11,008 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:03:11,012 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 20:03:11,016 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:03:11,103 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 20:03:11,158 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:03:11,159 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 20:03:11,185 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 40960
+ERROR 2020-07-15 20:03:11,191 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 500 59
+INFO 2020-07-15 20:03:11,197 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 20:03:11,199 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 20:03:13,384 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 20:03:13,388 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:03:13,421 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 16384
+ERROR 2020-07-15 20:03:13,426 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 500 59
+INFO 2020-07-15 20:03:13,430 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 16384
+ERROR 2020-07-15 20:03:13,431 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 500 59
+INFO 2020-07-15 20:03:13,431 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 49152
+ERROR 2020-07-15 20:03:13,432 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 500 59
+INFO 2020-07-15 20:03:15,332 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:03:15,332 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 20:03:15,345 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 20:03:15,385 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 20:03:15,422 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 90112
+ERROR 2020-07-15 20:03:15,422 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 20:03:22,583 basehttp 124 "GET /courseapp/course_filter/?page=5&size=2&ordering=-id HTTP/1.1" 200 1289
+INFO 2020-07-15 20:03:22,639 basehttp 124 "GET /media/course/02.png HTTP/1.1" 200 41319
+INFO 2020-07-15 20:03:22,648 basehttp 124 "GET /media/course/08.jpg HTTP/1.1" 200 16384
+ERROR 2020-07-15 20:03:22,649 basehttp 124 "GET /media/course/08.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 20:03:24,314 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:03:24,318 basehttp 124 "GET /courseapp/course_comment/5/ HTTP/1.1" 200 79
+INFO 2020-07-15 20:03:24,318 basehttp 124 "GET /courseapp/course_detail/5/ HTTP/1.1" 200 594
+INFO 2020-07-15 20:03:24,374 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 416648
+INFO 2020-07-15 20:03:31,049 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:03:31,081 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 20:03:34,227 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 20:03:34,240 exceptions 18 <cartapp.views.CartViewSet object at 0x000001410990DB70> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 20:03:34,242 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 20:05:14,797 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:05:14,819 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 20:05:14,871 exceptions 18 <cartapp.views.CartViewSet object at 0x000002441862A940> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 20:05:14,872 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 20:06:12,309 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 20:06:12,352 exceptions 18 <cartapp.views.CartViewSet object at 0x000002830A99D320> GET not enough values to unpack (expected 2, got 1)
+ERROR 2020-07-15 20:06:12,353 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 20:13:14,610 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:13:14,619 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 20:13:14,637 exceptions 18 <cartapp.views.CartViewSet object at 0x0000022A37E83470> GET 'builtin_function_or_method' object is not iterable
+ERROR 2020-07-15 20:13:14,637 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 20:13:32,906 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 20:13:32,937 exceptions 18 <cartapp.views.CartViewSet object at 0x00000287187511D0> GET 'builtin_function_or_method' object is not iterable
+ERROR 2020-07-15 20:13:32,938 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 20:14:55,522 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:14:55,573 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 575
+INFO 2020-07-15 20:17:14,080 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:17:14,107 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 575
+INFO 2020-07-15 20:18:43,090 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:18:43,110 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+ERROR 2020-07-15 20:18:43,149 exceptions 18 <cartapp.views.CartViewSet object at 0x000001E2631E1668> GET must be str, not ImageFieldFile
+ERROR 2020-07-15 20:18:43,151 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 500 56
+INFO 2020-07-15 20:20:33,337 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:20:33,370 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:20:33,426 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 575
+INFO 2020-07-15 20:24:36,081 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 20:24:36,127 basehttp 124 "PATCH /cartapp/cart/ HTTP/1.1" 400 35
+INFO 2020-07-15 20:24:51,535 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 20:24:51,543 basehttp 124 "PATCH /cartapp/cart/ HTTP/1.1" 400 35
+INFO 2020-07-15 20:25:18,830 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 20:25:18,838 basehttp 124 "PATCH /cartapp/cart/ HTTP/1.1" 400 35
+INFO 2020-07-15 20:25:40,101 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:25:40,109 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:25:40,145 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 575
+INFO 2020-07-15 20:25:46,842 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 20:25:46,851 basehttp 124 "PATCH /cartapp/cart/ HTTP/1.1" 400 35
+INFO 2020-07-15 20:45:49,267 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:45:49,278 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:45:49,310 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 575
+INFO 2020-07-15 20:45:52,749 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 20:45:52,759 basehttp 124 "PATCH /cartapp/cart/ HTTP/1.1" 400 35
+INFO 2020-07-15 20:46:04,583 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:46:04,601 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:46:04,643 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 575
+INFO 2020-07-15 20:47:26,273 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:47:26,288 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 20:47:26,336 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 575
+INFO 2020-07-15 20:47:28,104 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 20:47:28,112 basehttp 124 "PATCH /cartapp/cart/ HTTP/1.1" 200 38
+INFO 2020-07-15 21:02:23,928 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 21:02:23,933 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 21:02:41,734 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 21:02:48,673 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:02:48,677 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 21:02:48,681 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:02:48,768 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 21:02:48,815 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 21:02:48,815 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:02:48,833 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 21:02:48,836 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 21:02:48,856 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 49152
+ERROR 2020-07-15 21:02:48,857 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 500 59
+INFO 2020-07-15 21:02:51,354 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:02:51,365 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:02:51,399 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 576
+WARNING 2020-07-15 21:02:56,217 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 21:03:20,178 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 21:03:29,248 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 21:03:29,340 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 21:03:29,379 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:03:29,380 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 21:03:32,644 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:03:32,659 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 576
+WARNING 2020-07-15 21:03:38,742 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 21:04:35,448 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:04:35,458 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:04:35,489 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 576
+WARNING 2020-07-15 21:04:38,047 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 400 35
+WARNING 2020-07-15 21:05:55,810 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 400 35
+INFO 2020-07-15 21:07:46,416 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:07:46,425 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:07:46,454 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 576
+WARNING 2020-07-15 21:07:52,022 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 401 58
+WARNING 2020-07-15 21:08:01,729 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 401 58
+INFO 2020-07-15 21:08:41,443 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 21:08:53,659 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:08:53,665 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 21:08:53,671 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:08:53,757 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 21:08:53,806 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 21:08:53,810 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:08:53,825 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 114688
+ERROR 2020-07-15 21:08:53,827 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 500 59
+INFO 2020-07-15 21:08:53,845 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 21:08:53,847 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 21:09:12,612 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:09:12,618 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:09:12,635 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 576
+WARNING 2020-07-15 21:09:23,368 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 401 58
+WARNING 2020-07-15 21:09:57,183 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 400 35
+WARNING 2020-07-15 21:10:39,087 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 401 38
+WARNING 2020-07-15 21:10:46,118 base 93 Not Found: /cartapp/cart/12/
+WARNING 2020-07-15 21:10:46,119 basehttp 124 "DELETE /cartapp/cart/12/ HTTP/1.1" 404 2820
+INFO 2020-07-15 21:13:00,169 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 21:13:00,183 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:13:00,193 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 21:13:00,217 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 32768
+ERROR 2020-07-15 21:13:00,217 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 21:13:00,218 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 21:13:04,118 basehttp 124 "GET /courseapp/course_filter/?page=7&size=2&ordering=-id HTTP/1.1" 200 4866
+INFO 2020-07-15 21:13:04,159 basehttp 124 "GET /media/course/05.jpg HTTP/1.1" 200 98963
+INFO 2020-07-15 21:13:04,162 basehttp 124 "GET /media/course/06.png HTTP/1.1" 200 81807
+INFO 2020-07-15 21:13:14,380 basehttp 124 "GET /courseapp/course_filter/?page=5&size=3&ordering=-id HTTP/1.1" 200 4866
+INFO 2020-07-15 21:13:14,385 basehttp 124 "GET /courseapp/course_filter/?page=1&size=3&ordering=-id HTTP/1.1" 200 1710
+INFO 2020-07-15 21:13:14,406 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 21:13:14,409 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 21:13:14,449 basehttp 124 "GET /media/course/11.jpg HTTP/1.1" 200 33010
+INFO 2020-07-15 21:13:26,143 basehttp 124 "GET /courseapp/course_filter/?page=4&size=3&ordering=-id HTTP/1.1" 200 1806
+INFO 2020-07-15 21:13:26,152 basehttp 124 "GET /media/course/08.jpg HTTP/1.1" 200 49095
+INFO 2020-07-15 21:13:26,187 basehttp 124 "GET /media/course/07.png HTTP/1.1" 200 85626
+INFO 2020-07-15 21:13:26,187 basehttp 124 "GET /media/course/10.png HTTP/1.1" 200 89891
+INFO 2020-07-15 21:13:28,213 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:13:28,217 basehttp 124 "GET /courseapp/course_comment/3/ HTTP/1.1" 200 79
+INFO 2020-07-15 21:13:28,218 basehttp 124 "GET /courseapp/course_detail/3/ HTTP/1.1" 200 574
+INFO 2020-07-15 21:13:28,271 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 21:13:32,637 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 21:13:34,333 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:13:34,348 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 657
+WARNING 2020-07-15 21:14:04,350 basehttp 124 "DELETE /cartapp/cart/ HTTP/1.1" 400 35
+INFO 2020-07-15 21:31:40,889 basehttp 124 "OPTIONS /cartapp/del_cart/12 HTTP/1.1" 301 0
+INFO 2020-07-15 21:32:08,095 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:32:08,124 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:32:08,193 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 657
+INFO 2020-07-15 21:32:11,306 basehttp 124 "OPTIONS /cartapp/del_cart/12 HTTP/1.1" 200 0
+WARNING 2020-07-15 21:32:11,314 basehttp 124 "DELETE /cartapp/del_cart/12 HTTP/1.1" 400 35
+INFO 2020-07-15 21:32:50,975 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:32:50,998 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:32:51,072 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 657
+INFO 2020-07-15 21:32:53,936 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+WARNING 2020-07-15 21:32:53,944 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 400 35
+INFO 2020-07-15 21:33:58,778 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:33:58,837 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 657
+WARNING 2020-07-15 21:34:00,889 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 400 35
+INFO 2020-07-15 21:38:32,321 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:38:32,346 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:38:32,388 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 657
+INFO 2020-07-15 21:38:33,976 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+WARNING 2020-07-15 21:38:33,984 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 400 35
+WARNING 2020-07-15 21:39:42,076 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 401 38
+WARNING 2020-07-15 21:40:06,927 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 401 38
+INFO 2020-07-15 21:41:01,117 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:41:01,135 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:41:01,198 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 657
+INFO 2020-07-15 21:41:03,078 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+WARNING 2020-07-15 21:41:03,087 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 400 35
+INFO 2020-07-15 21:46:44,640 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:46:44,694 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 657
+INFO 2020-07-15 21:46:46,977 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 200 26
+INFO 2020-07-15 21:48:36,271 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:48:36,339 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 657
+INFO 2020-07-15 21:48:55,744 basehttp 124 "OPTIONS /cartapp/del_cart/14/ HTTP/1.1" 200 0
+ERROR 2020-07-15 21:48:55,753 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x0000023E31AE80F0> DELETE 'CartDeleteAPIView' object has no attribute 'cart_list'
+ERROR 2020-07-15 21:48:55,753 basehttp 124 "DELETE /cartapp/del_cart/14/ HTTP/1.1" 500 56
+INFO 2020-07-15 21:56:00,362 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:56:00,380 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:56:00,430 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 658
+INFO 2020-07-15 21:56:06,704 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:56:06,713 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 200 26
+INFO 2020-07-15 21:57:05,775 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:57:05,790 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 21:57:05,837 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 658
+INFO 2020-07-15 21:57:08,170 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+INFO 2020-07-15 21:57:08,179 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 200 26
+WARNING 2020-07-15 21:59:06,105 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 21:59:06,112 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+WARNING 2020-07-15 22:00:03,209 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 22:00:03,221 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:01:36,285 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+WARNING 2020-07-15 22:01:36,294 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 401 35
+INFO 2020-07-15 22:01:36,301 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:01:55,835 basehttp 124 "GET /userapp/captcha/?username=admin HTTP/1.1" 200 140
+INFO 2020-07-15 22:02:03,903 basehttp 124 "OPTIONS /userapp/captcha/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:02:03,906 basehttp 124 "POST /userapp/captcha/ HTTP/1.1" 200 17
+INFO 2020-07-15 22:02:03,911 basehttp 124 "OPTIONS /userapp/login/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:02:03,997 basehttp 124 "POST /userapp/login/ HTTP/1.1" 200 218
+INFO 2020-07-15 22:02:04,050 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:02:04,053 basehttp 124 "GET /homeapp/carousel/ HTTP/1.1" 200 272
+INFO 2020-07-15 22:02:04,092 basehttp 124 "GET /media/carousel/02_WI4qRIt.png HTTP/1.1" 200 364808
+INFO 2020-07-15 22:02:04,097 basehttp 124 "GET /media/carousel/03_dqKzyjC.png HTTP/1.1" 200 745382
+INFO 2020-07-15 22:02:04,117 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 200 139264
+ERROR 2020-07-15 22:02:04,119 basehttp 124 "GET /media/carousel/01.png HTTP/1.1" 500 59
+INFO 2020-07-15 22:02:06,199 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:02:06,209 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:02:06,246 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 658
+INFO 2020-07-15 22:02:10,910 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:02:10,927 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 200 26
+INFO 2020-07-15 22:03:25,714 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:03:25,732 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:03:25,800 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 658
+INFO 2020-07-15 22:03:28,145 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:03:28,155 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001E3019F9550> DELETE 'Course' object has no attribute 'update'
+ERROR 2020-07-15 22:03:28,155 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:03:30,161 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:03:30,171 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:03:30,203 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 658
+INFO 2020-07-15 22:03:39,975 basehttp 124 "OPTIONS /cartapp/del_cart/13/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:03:39,990 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001E301A0D400> DELETE 'Course' object has no attribute 'update'
+ERROR 2020-07-15 22:03:39,990 basehttp 124 "DELETE /cartapp/del_cart/13/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:03:42,090 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:03:42,120 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 658
+INFO 2020-07-15 22:03:45,270 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:03:45,286 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001E301A15780> DELETE 'Course' object has no attribute 'update'
+ERROR 2020-07-15 22:03:45,286 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:03:47,290 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:03:47,301 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:03:47,339 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 658
+INFO 2020-07-15 22:04:29,257 basehttp 124 "OPTIONS /cartapp/del_cart/12/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:04:29,280 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001AEA4E6A860> DELETE 'Course' object has no attribute 'update'
+ERROR 2020-07-15 22:04:29,281 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:04:31,316 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:04:31,351 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 658
+INFO 2020-07-15 22:04:55,823 basehttp 124 "DELETE /cartapp/del_cart/12/ HTTP/1.1" 200 26
+INFO 2020-07-15 22:05:42,624 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:05:42,636 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:05:42,676 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 567
+INFO 2020-07-15 22:05:49,809 basehttp 124 "OPTIONS /cartapp/del_cart/13/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:05:49,819 basehttp 124 "DELETE /cartapp/del_cart/13/ HTTP/1.1" 200 26
+INFO 2020-07-15 22:06:09,828 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:06:09,892 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 490
+INFO 2020-07-15 22:06:15,280 basehttp 124 "OPTIONS /cartapp/del_cart/14/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:06:15,289 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001D8E5CD8160> DELETE WRONGTYPE Operation against a key holding the wrong kind of value
+ERROR 2020-07-15 22:06:15,289 basehttp 124 "DELETE /cartapp/del_cart/14/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:06:17,498 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:06:17,509 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:06:17,546 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 490
+INFO 2020-07-15 22:06:35,585 basehttp 124 "OPTIONS /cartapp/del_cart/3/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:06:35,593 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001D8E5CE7588> DELETE WRONGTYPE Operation against a key holding the wrong kind of value
+ERROR 2020-07-15 22:06:35,593 basehttp 124 "DELETE /cartapp/del_cart/3/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:06:37,784 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:06:37,816 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 490
+INFO 2020-07-15 22:07:27,798 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:07:27,866 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 490
+INFO 2020-07-15 22:07:30,769 basehttp 124 "OPTIONS /cartapp/del_cart/14/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:07:30,779 basehttp 124 "DELETE /cartapp/del_cart/14/ HTTP/1.1" 200 26
+INFO 2020-07-15 22:07:36,092 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:07:36,101 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:07:36,129 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 409
+INFO 2020-07-15 22:07:54,508 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:07:54,519 basehttp 124 "PATCH /cartapp/cart/ HTTP/1.1" 200 38
+INFO 2020-07-15 22:08:48,247 basehttp 124 "OPTIONS /cartapp/del_cart/9/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:08:48,271 basehttp 124 "DELETE /cartapp/del_cart/9/ HTTP/1.1" 200 26
+INFO 2020-07-15 22:11:14,112 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:11:14,130 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:11:14,168 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 331
+INFO 2020-07-15 22:11:21,206 basehttp 124 "OPTIONS /cartapp/del_cart/2/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:11:21,224 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001AC292D9400> DELETE WRONGTYPE Operation against a key holding the wrong kind of value
+ERROR 2020-07-15 22:11:21,224 basehttp 124 "DELETE /cartapp/del_cart/2/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:11:23,198 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:11:23,217 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 250
+INFO 2020-07-15 22:12:06,996 basehttp 124 "OPTIONS /cartapp/del_cart/7/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:12:07,017 basehttp 124 "DELETE /cartapp/del_cart/7/ HTTP/1.1" 200 26
+INFO 2020-07-15 22:12:43,464 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:12:43,508 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 159
+INFO 2020-07-15 22:12:46,697 basehttp 124 "OPTIONS /cartapp/del_cart/5/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:12:46,705 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x00000212F6246F98> DELETE WRONGTYPE Operation against a key holding the wrong kind of value
+ERROR 2020-07-15 22:12:46,706 basehttp 124 "DELETE /cartapp/del_cart/5/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:12:48,707 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:12:48,716 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:12:48,729 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 82
+INFO 2020-07-15 22:14:34,323 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 22:14:34,323 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:14:34,332 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 22:14:34,405 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 22:14:34,413 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 22:14:36,418 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+INFO 2020-07-15 22:14:36,419 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:14:36,419 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 22:14:36,492 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 22:14:38,151 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:14:38,172 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 22:14:43,761 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 22:14:43,761 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:14:43,769 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 22:14:43,831 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 22:14:46,171 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:14:46,178 basehttp 124 "GET /courseapp/course_comment/13/ HTTP/1.1" 200 80
+INFO 2020-07-15 22:14:46,178 basehttp 124 "GET /courseapp/course_detail/13/ HTTP/1.1" 200 571
+INFO 2020-07-15 22:14:46,231 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 200 16384
+ERROR 2020-07-15 22:14:46,232 basehttp 124 "GET /media/teacher/f01.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 22:14:49,603 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 22:14:54,286 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:14:54,289 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 239
+INFO 2020-07-15 22:14:58,998 basehttp 124 "OPTIONS /cartapp/del_cart/3/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:14:59,012 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001C0EB82EE48> DELETE WRONGTYPE Operation against a key holding the wrong kind of value
+ERROR 2020-07-15 22:14:59,012 basehttp 124 "DELETE /cartapp/del_cart/3/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:15:01,053 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:15:01,065 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:15:01,078 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 158
+INFO 2020-07-15 22:16:06,507 basehttp 124 "OPTIONS /cartapp/del_cart/14/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:16:06,514 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001C0EB81E8D0> DELETE WRONGTYPE Operation against a key holding the wrong kind of value
+ERROR 2020-07-15 22:16:06,514 basehttp 124 "DELETE /cartapp/del_cart/14/ HTTP/1.1" 500 56
+INFO 2020-07-15 22:16:59,301 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:16:59,351 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 78
+INFO 2020-07-15 22:17:03,802 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 22:17:03,811 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:17:03,825 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 22:17:03,856 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 24576
+INFO 2020-07-15 22:17:03,857 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+ERROR 2020-07-15 22:17:03,858 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 500 59
+INFO 2020-07-15 22:17:05,352 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:17:05,356 basehttp 124 "GET /courseapp/course_detail/14/ HTTP/1.1" 200 548
+INFO 2020-07-15 22:17:05,356 basehttp 124 "GET /courseapp/course_comment/14/ HTTP/1.1" 200 80
+INFO 2020-07-15 22:17:05,409 basehttp 124 "GET /media/teacher/03.jpg HTTP/1.1" 200 21454
+INFO 2020-07-15 22:17:06,983 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 22:17:14,868 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 22:17:14,875 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:17:14,889 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 22:17:14,941 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 22:17:17,223 basehttp 124 "GET /courseapp/course_filter/?page=6&size=2&ordering=-id HTTP/1.1" 200 1247
+INFO 2020-07-15 22:17:17,267 basehttp 124 "GET /media/course/07.png HTTP/1.1" 200 16384
+ERROR 2020-07-15 22:17:17,268 basehttp 124 "GET /media/course/07.png HTTP/1.1" 500 59
+INFO 2020-07-15 22:17:17,268 basehttp 124 "GET /media/course/10.png HTTP/1.1" 200 65536
+ERROR 2020-07-15 22:17:17,269 basehttp 124 "GET /media/course/10.png HTTP/1.1" 500 59
+INFO 2020-07-15 22:17:19,169 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:17:19,174 basehttp 124 "GET /courseapp/course_comment/3/ HTTP/1.1" 200 79
+INFO 2020-07-15 22:17:19,175 basehttp 124 "GET /courseapp/course_detail/3/ HTTP/1.1" 200 574
+INFO 2020-07-15 22:17:21,599 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 22:17:26,111 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:17:26,115 basehttp 124 "GET /courseapp/category/ HTTP/1.1" 200 229
+INFO 2020-07-15 22:17:26,120 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1172
+INFO 2020-07-15 22:17:26,173 basehttp 124 "GET /media/course/09.jpg HTTP/1.1" 200 96987
+INFO 2020-07-15 22:17:26,177 basehttp 124 "GET /media/course/12.jpg HTTP/1.1" 200 28248
+INFO 2020-07-15 22:17:30,555 basehttp 124 "GET /courseapp/course_filter/?page=1&size=2&ordering=-id&course_category=3 HTTP/1.1" 200 587
+INFO 2020-07-15 22:17:30,594 basehttp 124 "GET /media/course/02.png HTTP/1.1" 200 41319
+INFO 2020-07-15 22:17:31,864 basehttp 124 "GET /courseapp/course_comment/6/ HTTP/1.1" 200 79
+INFO 2020-07-15 22:17:31,864 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:17:31,871 basehttp 124 "GET /courseapp/course_detail/6/ HTTP/1.1" 200 571
+INFO 2020-07-15 22:17:31,895 basehttp 124 "GET /media/teacher/01_mJYuq07.jpg HTTP/1.1" 200 28501
+INFO 2020-07-15 22:17:34,376 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:17:34,385 basehttp 124 "POST /cartapp/cart/ HTTP/1.1" 200 59
+INFO 2020-07-15 22:17:36,410 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:17:36,419 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 319
+INFO 2020-07-15 22:17:41,829 basehttp 124 "OPTIONS /cartapp/del_cart/13/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:17:41,845 exception 118 Internal Server Error: /cartapp/del_cart/13/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\testenv03\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\testenv03\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\testenv03\lib\site-packages\rest_framework\renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\testenv03\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\users\清峥\appdata\local\programs\python\python36\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\users\清峥\appdata\local\programs\python\python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\清峥\appdata\local\programs\python\python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+ERROR 2020-07-15 22:17:42,010 basehttp 124 "DELETE /cartapp/del_cart/13/ HTTP/1.1" 500 102386
+ERROR 2020-07-15 22:18:27,485 exception 118 Internal Server Error: /cartapp/del_cart/13/
+Traceback (most recent call last):
+  File "D:\testenv03\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\testenv03\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\testenv03\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\testenv03\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\testenv03\lib\site-packages\rest_framework\renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\testenv03\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\users\清峥\appdata\local\programs\python\python36\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\users\清峥\appdata\local\programs\python\python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\清峥\appdata\local\programs\python\python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+ERROR 2020-07-15 22:18:27,521 basehttp 124 "DELETE /cartapp/del_cart/13/ HTTP/1.1" 500 102386
+INFO 2020-07-15 22:19:18,310 basehttp 124 "OPTIONS /cartapp/cart/ HTTP/1.1" 200 0
+INFO 2020-07-15 22:19:18,347 basehttp 124 "GET /homeapp/nav/ HTTP/1.1" 200 918
+INFO 2020-07-15 22:19:18,405 basehttp 124 "GET /cartapp/cart/ HTTP/1.1" 200 242
+INFO 2020-07-15 22:19:20,772 basehttp 124 "OPTIONS /cartapp/del_cart/14/ HTTP/1.1" 200 0
+ERROR 2020-07-15 22:19:20,782 exceptions 18 <cartapp.views.CartDeleteAPIView object at 0x000001FA0B1C8240> DELETE WRONGTYPE Operation against a key holding the wrong kind of value
+ERROR 2020-07-15 22:19:20,783 basehttp 124 "DELETE /cartapp/del_cart/14/ HTTP/1.1" 500 56
