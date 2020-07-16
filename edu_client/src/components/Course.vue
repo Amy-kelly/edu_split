@@ -51,8 +51,8 @@
 
                         </ul>
                         <div class="pay-box">
-                            <span class="discount-type">限时免费</span>
-                            <span class="discount-price">￥0.00元</span>
+                            <span class="discount-type" v-if="course.discount_name">{{course.discount_name}}</span>
+                            <span class="discount-price">￥{{parseInt(course.real_price)}}元</span>
                             <span class="original-price">原价：{{course.price}}元</span>
                             <span class="buy-now">立即购买</span>
                         </div>

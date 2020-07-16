@@ -85,6 +85,8 @@ class CommentGenericAPIView(ListModelMixin,
     serializer_class = CommentModelSerializer
     def get(self,request,*args,**kwargs):
         cour_id = kwargs.get("pk")
+
+
         if cour_id:
             course = self.retrieve(request,*args,**kwargs)
             return MyResponse(status.HTTP_200_OK,True,results=course.data)

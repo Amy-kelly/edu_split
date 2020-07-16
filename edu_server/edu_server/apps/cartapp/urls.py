@@ -7,6 +7,7 @@ urlpatterns = [
         "post":"add_cart",
         "get":"cart_list",
         "patch":"change_select",
+        "put":"change_expire",
         # "delete":"del_course"
     })),
     path("del_cart/<str:id>/",views.CartDeleteAPIView.as_view())

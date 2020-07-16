@@ -8,14 +8,13 @@
             <span><router-link :to="'/course/detail/'+course.id">{{course.name}}</router-link></span>
         </div>
         <div class="cart_column column_3">
-            <el-select v-model="expire" size="mini" placeholder="请选择购买有效期" class="my_el_select">
-                <el-option label="1个月有效" value="30" key="30"></el-option>
-                <el-option label="2个月有效" value="60" key="60"></el-option>
-                <el-option label="3个月有效" value="90" key="90"></el-option>
-                <el-option label="永久有效" value="10000" key="10000"></el-option>
+            <el-select v-model="course.expire_id" size="mini" placeholder="请选择购买有效期" class="my_el_select">
+                <el-option
+                    :label="item.expire_text" :value="item.id" :key="item.id" v-for="item in course.expire_list">
+                </el-option>
             </el-select>
         </div>
-        <div class="cart_column column_4">¥{{course.price}}</div>
+        <div class="cart_column column_4">¥{{course.real_price}}</div>
         <div class="cart_column column_4" @click="del_course(course.id)">删除</div>
     </div>
 </template>
@@ -34,6 +33,9 @@
             //监听商品状态变化
             'course.selected':function () {
                  this.change_select()
+            },
+            'course.expire_id':function () {
+                  this.change_expire()
             }
         },
         methods:{
@@ -48,6 +50,23 @@
                         "Authorization":"jwt "+token,
                     }
                 }).then(response=>{
+                    this.$message.success(response.data.message);
+                }).catch(error=>{
+                    this.$message.error("出错了")
+                })
+            },
+            //改变购物车中课程有效期
+            change_expire(){
+              let token = localStorage.user_token || sessionStorage.user_token;
+                this.$axios.put('http://127.0.0.1:8000/cartapp/cart/',{
+                    expire_id:this.course.expire_id,
+                    course_id:this.course.id
+                },{
+                    headers:{
+                        "Authorization":"jwt "+token,
+                    }
+                }).then(response=>{
+                    this.course.real_price = response.data.real_price;
                     this.$message.success(response.data.message);
                 }).catch(error=>{
                     this.$message.error("出错了")
