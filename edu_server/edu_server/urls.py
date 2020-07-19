@@ -31,4 +31,5 @@ urlpatterns = [
     path("userapp/", include("userapp.urls")),
     path("courseapp/", include("courseapp.urls")),
     path("cartapp/", include("cartapp.urls")),
+    path("orderapp/", include("orderapp.urls")),
 ]

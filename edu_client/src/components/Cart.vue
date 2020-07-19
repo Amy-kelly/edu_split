@@ -4,7 +4,7 @@
       <div class="cart_info">
         <div class="cart_title">
           <span class="text">我的购物车</span>
-          <span class="total">共4门课程</span>
+          <span class="total">共{{cart_list.length}}门课程</span>
         </div>
         <div class="cart_table">
           <div class="cart_head_row">
@@ -15,13 +15,16 @@
             <span class="do_more">操作</span>
           </div>
           <div class="cart_course_list">
-            <CartItem v-for="(course,index) in cart_list" :key="index" :course="course"></CartItem>
+            <CartItem v-for="(course,index) in cart_list" :key="index" :course="course"
+            @del_course="del_cart(index)" @change_select="cart_total_price">
+
+            </CartItem>
           </div>
           <div class="cart_footer_row">
             <span class="cart_select"><label> <el-checkbox></el-checkbox><span>全选</span></label></span>
             <span class="cart_delete"><i class="el-icon-delete"></i> <span>删除</span></span>
-            <span class="goto_pay">去结算</span>
-            <span class="cart_total">总计：¥0.0</span>
+            <span class="goto_pay"><router-link to="/order">去结算</router-link></span>
+            <span class="cart_total">总计：¥{{total_price}}</span>
           </div>
         </div>
       </div>
@@ -40,9 +43,21 @@
             return{
                 data_list:[],
                 cart_list:[],
+                total_price:0.00,
             }
         },
          methods:{
+            //计算选中商品的总价
+             cart_total_price(){
+               let total = 0;
+               this.cart_list.forEach((course,key) => {
+                   if(course.selected){
+                       total += parseFloat(course.real_price);
+                   }
+                   this.total_price = total;
+               })
+             },
+
             //获取导航栏尾部的数据
             get_all_data(){
                 this.$axios({
@@ -81,12 +96,22 @@
                         }
                         }).then(response=>{
                      console.log(response.data)
-                    this.cart_list = response.data
+                     this.cart_list = response.data;
+                     this.$store.commit("add_cart",this.cart_list.length);
+                     this.cart_total_price();
                 }).catch(error=>{
                     console.log(this.$message.error)
                     this.$message.error(error.response)
                 })
              },
+             //删除购物车
+             del_cart(index){
+                 // console.log(index)
+                 let token = this.check_user_login();
+                 this.cart_list.splice(index,1);
+                 this.$store.commit("add_cart",this.cart_list.length)
+                 this.cart_total_price();
+             }
         },
         // 在当前页面渲染之前将数据获取并赋值给 data
         created() {

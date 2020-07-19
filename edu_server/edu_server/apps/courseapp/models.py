@@ -158,7 +158,7 @@ class Course(BaseModel):
                         price = self.price - max(price_list)  # 课程原价减去当前满足条件的最大优惠
         return price
 
-    @property
+
     def real_expire_price(self, expire_id=0):
         """点击有效期后的价格、
         1. 先判断当前有效期是否大于0 大于0处理有效期
@@ -168,30 +168,21 @@ class Course(BaseModel):
         """
         # 课程原价
         original_price = self.price
-
         try:
             if expire_id > 0:
-                # 如果有效期id存在  则回去有效期id所对应的价格
                 original_price = CourseExpire.objects.get(id=expire_id).price
         except CourseExpire.DoesNotExist:
             pass
-
         price = original_price
         # 找到当前课程所参与的活动
         active_list = self.active_list()
 
         if len(active_list) > 0:
-            """如果课程对应的活动存在  则根据课程所参与的活动的规则来计算价格"""
             active = active_list[0]
-
-            # 判断原价是否满足优惠的门槛
             condition = active.discount.condition
             sale = active.discount.sale
-
             self.price = float(price)
-
             if self.price >= condition:
-                # 判断当前课程满足哪一种优惠条件
                 if sale == "":
                     # 限时免费
                     price = 0
@@ -202,7 +193,6 @@ class Course(BaseModel):
                     # 减免
                     price = self.price - float(sale[1:])
                 elif sale[0] == "满":
-                    """满减  500-80  400-40 300-20 200-10"""
                     sale_split = sale.split("\r\n")
                     # 把当前课程价格所满足的条件放入列表中
                     price_list = []
@@ -237,7 +227,7 @@ class Course(BaseModel):
     def expire_list(self):
         """获取课程有效期"""
         expires = self.course_expire.filter(is_show=True, is_delete=False)
-        # print(expires)
+        print(expires)
         data = []
 
         for item in expires:

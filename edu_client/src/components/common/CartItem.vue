@@ -4,7 +4,7 @@
             <el-checkbox class="my_el_checkbox" v-model="course.selected"></el-checkbox>
         </div>
         <div class="cart_column column_2">
-            <img src="../../../static/image/1111.jpg" alt="">
+            <img :src="course.course_img" alt="">
             <span><router-link :to="'/course/detail/'+course.id">{{course.name}}</router-link></span>
         </div>
         <div class="cart_column column_3">
@@ -15,7 +15,7 @@
             </el-select>
         </div>
         <div class="cart_column column_4">¥{{course.real_price}}</div>
-        <div class="cart_column column_4" @click="del_course(course.id)">删除</div>
+        <div class="cart_column column_4" @click="del_course">删除</div>
     </div>
 </template>
 
@@ -51,6 +51,7 @@
                     }
                 }).then(response=>{
                     this.$message.success(response.data.message);
+                    this.$emit("change_select")
                 }).catch(error=>{
                     this.$message.error("出错了")
                 })
@@ -66,27 +67,35 @@
                         "Authorization":"jwt "+token,
                     }
                 }).then(response=>{
+                    console.log(response.data)
+                    console.log(response.data.real_price)
                     this.course.real_price = response.data.real_price;
+                    this.$emit("change_select")
                     this.$message.success(response.data.message);
                 }).catch(error=>{
+                    console.log(error);
                     this.$message.error("出错了")
                 })
             },
             //删除购物车中的商品
-            del_course(course_id){
-                console.log(course_id)
+            del_course(){
+                // console.log(course_id)
                 let token = localStorage.user_token || sessionStorage.user_token;
-                this.$axios.delete('http://127.0.0.1:8000/cartapp/del_cart/'+`${course_id}/`,{
+                this.$axios.delete('http://127.0.0.1:8000/cartapp/cart/', {
+                    params:{
+                          course_id:this.course.id
+                           },
+
                     headers:{
                         "Authorization":"jwt "+token,
                     }
                 }).then(response=>{
                     this.$message.success(response.data.message);
-                    console.log(response.data)
-                    // this.cart_list = response.data
+                    console.log(response.data);
+                    this.$emit("del_course")
                 }).catch(error=>{
-                     location.reload()
-                    this.$message.error("出错了")
+                     // location.reload()
+                    this.$message.error(error.response.data)
 
                 })
             }
