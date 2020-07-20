@@ -8,10 +8,10 @@
         </div>
         <div class="login_box">
             <div class="title">
-                <span>密码登录</span>
-                <span>短信登录</span>
+                <li :class="tabIndex==1?'active':''" @click="tabIndex=1"><span :class="tabIndex==1?'active':''" @click="tabIndex=1">密码登录</span></li>
+                <li :class="tabIndex==2?'active':''" @click="tabIndex=2"><span :class="tabIndex==2?'active':''" @click="tabIndex=2">短信登录</span></li>
             </div>
-            <div class="inp" v-if="">
+            <div class="inp" v-if="tabIndex==1">
                 <input type="text" placeholder="用户名 / 手机号码" class="user" v-model="username">
                 <input type="password" name="" class="pwd" placeholder="密码" v-model="password">
                 <div id="geetest1"></div>
@@ -27,11 +27,11 @@
                     <router-link to="/register">立即注册</router-link>
                 </p>
             </div>
-            <div class="inp" v-show="">
-                <input type="text" placeholder="手机号码" class="user">
-                <input type="text" class="pwd" placeholder="短信验证码">
-                <button id="get_code" class="btn btn-primary">获取验证码</button>
-                <button class="login_btn">登录</button>
+            <div class="inp" v-if="tabIndex==2">
+                <input v-model="mobile" type="text" placeholder="手机号码" class="user" >
+                <input v-model="code" type="text" class="pwd" placeholder="短信验证码">
+                <el-button id="get_code" class="btn btn-primary" type="success" plain @click="get_code">获取验证码</el-button>
+                <button class="login_btn" @click="phone_login">登录</button>
                 <span class="go_login">没有账号 </span>
                    <span><router-link to="/register">立即注册</router-link></span>
             </div>
@@ -47,10 +47,68 @@
             return{
                 username:"",
                 password:"",
-                remember_me:false
+                remember_me:false,
+                tabIndex:1,
+                mobile:"",
+                code: "",
+                sms_text: "请输入验证码",
+                sms_flag: false,
             }
         },
         methods:{
+            //向后台发送请求，用户手机号登录
+            phone_login() {
+                this.$axios({
+                    url: 'http://127.0.0.1:8000/userapp/phone_login/',
+                    method: "post",
+                    data: {
+                        phone: this.mobile,
+                        sms_code: this.code,
+                    }
+                }).then(response => {
+                    console.log(response.data);
+                    this.$message.success("登陆成功");
+                    this.$router.push("/");
+                }).catch(error => {
+                    this.$message.error("用户名或密码有误，登录失败")
+                })
+            },
+            // 为手机号获取验证码
+            get_code() {
+
+                // 验证手机号格式
+                if (!/1[35689]\d{9}/.test(this.mobile)) {
+                    this.$alert("手机号格式有误", "警告");
+                    return false
+                }
+
+                this.$axios({
+                    url: 'http://127.0.0.1:8000/userapp/sms/' + `${this.mobile}/`,
+                    method: "get",
+                }).then(response => {
+                    console.log(response.data);
+
+                    // 成功则可以再次发送短信
+                    this.sms_flag = true;
+                    let interval = 60;
+                    let timer = setInterval(() => {
+                        if (interval <= 1) {
+                            // 停止倒计时  允许发送短信
+                            clearInterval(timer);
+                            this.sms_flag = false; // 设置允许发送短信 false
+                            this.sms_text = `点击发送短信`
+                        } else {
+                            interval--;
+                            this.sms_text = `${interval}后可以点击发送`;
+                        }
+                    }, 1000)
+
+                }).catch(error => {
+                    console.log(error.response);
+                    this.$message.error("当前手机号已经发送过短信")
+                })
+            },
+
             //向API服务端发起请求获取验证码
             get_captcha() {
                 this.$axios({
@@ -224,6 +282,7 @@
         text-indent: 20px;
         font-size: 14px;
         background: #fff !important;
+        margin-bottom: 20px;
     }
 
     .inp input.user {

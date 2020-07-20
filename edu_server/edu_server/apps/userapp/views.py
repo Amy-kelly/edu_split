@@ -7,7 +7,7 @@ from rest_framework.generics import CreateAPIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status as http_status
-
+from rest_framework.viewsets import ViewSet
 from edu_server.settings import constants
 from .serializer import UserModelSerializer
 from edu_server.libs.geetest import GeetestLib
@@ -53,6 +53,14 @@ class CaptchaAPIView(APIView):
         result = {"status": "success"} if result else {"status": "fail"}
         return Response(result)
 
+#用户登录
+class UserLoginViewSet(ViewSet):
+    def login(self,request):
+        mobile = request.data.get("mobile")
+        code = request.data.get("code")
+        if User.objects.filter(username=mobile):
+            return Response({"message":"登录成功"})
+        return Response({"message": "登录失败"})
 
 # 用户注册
 class UserAPIView(CreateAPIView):
@@ -62,7 +70,6 @@ class UserAPIView(CreateAPIView):
 
 # 验证手机号
 class MobileCheckAPIView(APIView):
-
     def get(self, request, mobile):
         # 判断手机号是否合法
         if not re.match(r"^1[3-9]\d{9}$", mobile):

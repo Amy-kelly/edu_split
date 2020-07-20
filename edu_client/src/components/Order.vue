@@ -1,6 +1,6 @@
 <template>
     <div class="cart">
-        <Header/>
+        <Header :headers="data_list"></Header>
         <div class="cart-info">
             <h3 class="cart-top">购物车结算 <span>共{{course_list.length}}门课程</span></h3>
             <div class="cart-title">
@@ -38,11 +38,13 @@
                 </el-row>
             </div>
         </div>
-        <Footer/>
+        <Footer :footers="data_list"></Footer>
     </div>
 </template>
 
 <script>
+    import Header from "./common/Header";
+    import Footer from "./common/Footer";
     export default {
         name: "Order",
         data(){
@@ -53,13 +55,27 @@
                 //优惠后的总价
                 real_price:0,
                 pay_type:1,
+                data_list:[],
             }
         },
         created() {
               this.token = this.check_user_login();
-              this.get_select_course()
+              this.get_select_course();
+              this.get_all_data();
         },
         methods:{
+            get_all_data(){
+                this.$axios({
+                    url:'http://127.0.0.1:8000/homeapp/nav/',
+                    method: "get",
+                }).then(res=>{
+                    // 当前请求的返回值可以通过res接受到
+                    console.log(res.data);
+                    this.data_list = res.data;
+                }).catch(error=>{
+                    console.log(error);
+                })
+            },
             //检查用户是否已经登录
             check_user_login(){
               let token = localStorage.user_token || sessionStorage.user_token;
@@ -101,12 +117,24 @@
                         "Authorization":"jwt "+this.token,
                     }
                 }).then(res=>{
-                    this.$message.success("生成订单成功")
+                    this.$message.success("生成订单成功");
+                    this.$axios.get("http://127.0.0.1:8000/payments/ali_pay/",{
+                        params:{
+                            order_number :res.data.order_number,
+                        }
+                    }).then(res=>{
+                        location.href = res.data;
+                    }).catch(error => {
+                        console.log(error.response)
+                    })
                 }).catch(error=>{
                     this.$message.error("抱歉，生成有误")
                 })
 
             }
+        },
+        components:{
+            Header,Footer
         }
     }
 </script>

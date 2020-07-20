@@ -9,4 +9,5 @@ urlpatterns = [
     path("register/", views.UserAPIView.as_view()),
     path("mobile/<str:mobile>/", views.MobileCheckAPIView.as_view()),
     path("sms/<str:mobile>/", views.SendMessageAPIView.as_view()),
+    path("phone_login/",views.UserLoginViewSet.as_view({"post":"login"}))
 ]
