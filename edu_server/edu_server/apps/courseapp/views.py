@@ -1,11 +1,10 @@
 from rest_framework import status
 from rest_framework.generics import ListAPIView
-from rest_framework.mixins import RetrieveModelMixin,ListModelMixin,CreateModelMixin,UpdateModelMixin,DestroyModelMixin
+from rest_framework.mixins import RetrieveModelMixin,ListModelMixin, UpdateModelMixin
 from rest_framework.generics import GenericAPIView
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import OrderingFilter
 from rest_framework.response import Response
-from rest_framework.views import APIView
 
 from courseapp.models import CourseCategory, Course
 from courseapp.pagination import CoursePageNumber

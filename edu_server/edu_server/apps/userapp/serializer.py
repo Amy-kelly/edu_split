@@ -69,7 +69,7 @@ class UserModelSerializer(serializers.ModelSerializer):
 
         # 处理用户名  设置默认值   随机生成字符串  手机号（手机号设置了唯一，不会重复）
         username = validated_data.get("phone")
-
+        print(username)
         # 添加数据
         user = User.objects.create(
             phone=username,

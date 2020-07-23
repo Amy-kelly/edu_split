@@ -1,14 +1,11 @@
 import logging
-from rest_framework.request import Request
 from django_redis import get_redis_connection
 from rest_framework import status
 from rest_framework.response import Response
-from rest_framework.views import APIView
 from rest_framework.viewsets import ViewSet
 from rest_framework.permissions import IsAuthenticated
 from courseapp.models import Course, CourseExpire
 from edu_server.settings import constants
-from utils.response import MyResponse
 
 log = logging.getLogger("django")
 

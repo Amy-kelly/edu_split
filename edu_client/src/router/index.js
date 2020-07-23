@@ -9,6 +9,7 @@ import CourseDetail from "../components/CourseDetail";
 import Cart from "../components/Cart";
 import Order from "../components/Order";
 import OrderSuccess from "../components/OrderSuccess";
+import OrderList from "../components/OrderList";
 Vue.use(Router)
 
 export default new Router({
@@ -58,6 +59,11 @@ export default new Router({
       path: '/payments/result',
       name: 'OrderSuccess',
       component:OrderSuccess
+    },
+       {
+      path: '/order/list',
+      name: 'OrderList',
+      component:OrderList
     },
   ]
 })

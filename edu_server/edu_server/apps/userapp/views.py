@@ -1,6 +1,5 @@
 import random
 import re
-from utils.send_msg import Message
 
 from django_redis import get_redis_connection
 from rest_framework.generics import CreateAPIView
@@ -9,6 +8,7 @@ from rest_framework.views import APIView
 from rest_framework import status as http_status
 from rest_framework.viewsets import ViewSet
 from edu_server.settings import constants
+from utils.send_msg import Message
 from .serializer import UserModelSerializer
 from edu_server.libs.geetest import GeetestLib
 from userapp.models import User
@@ -103,6 +103,9 @@ class SendMessageAPIView(APIView):
 
         # 4. 调用方法  完成短信的发送
         try:
+            #通过celery异步执行短信发送
+            # from my_task.sms.tasks import send_sms
+            # send_sms.delay(mobile, code)
             message = Message(constants.API_KEY)
             message.send_message(mobile, code)
         except:

@@ -25,7 +25,7 @@
                     </div>
                     <p class="course-price">
                         <span>活动价</span>
-                        <span class="discount">¥{{course.real_price}}</span>
+                        <span class="discount">¥{{parseInt(course.real_price)}}</span>
                         <span class="original">¥{{course.price}}</span>
                     </p>
                     <div class="buy">

@@ -112,7 +112,8 @@
                     }, 1000)
 
                 }).catch(error => {
-                    console.log(error.response);
+                    console.log(error)
+                    // console.log(error.response);
                     this.$message.error("当前手机号已经发送过短信")
                 })
             },

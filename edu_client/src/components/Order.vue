@@ -31,7 +31,7 @@
                     <el-col :span="4" class="pay-col"><span class="pay-text">支付方式：</span></el-col>
                     <el-col :span="8">
                         <span class="alipay"><img src="../../static/image/alipay.png" alt="" @click="pay_type=1"></span>
-                        <span class="alipay wechat"><img src="../../static/image/wechat.png" alt="" @click="pay_type=2"></span>
+<!--                        <span class="alipay wechat"><img src="../../static/image/wechat.png" alt="" @click="pay_type=2"></span>-->
                     </el-col>
                     <el-col :span="8" class="count">实付款： <span>¥{{real_price}}</span></el-col>
                     <el-col :span="4" class="cart-pay"><span @click="pay_order">支付宝支付</span></el-col>

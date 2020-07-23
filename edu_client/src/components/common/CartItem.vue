@@ -51,6 +51,7 @@
                     }
                 }).then(response=>{
                     this.$message.success(response.data.message);
+                    //子向父传参
                     this.$emit("change_select")
                 }).catch(error=>{
                     this.$message.error("出错了")
